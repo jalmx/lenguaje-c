@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - master
+
+permissions: write-all
+
 jobs:
   build:
     name: Deploy docs to GitHub Pages

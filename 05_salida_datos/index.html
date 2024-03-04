@@ -437,6 +437,39 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Especificádores de formato">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dando-formato" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dando formato
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejemplos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-calcular-el-perimetro-y-area-del-cuadrado-con-valores-en-memoria-dando-el-siguiente-formato-ejemplo-el-perimetro-del-rectangulo-es-432-u-y-el-area-del-rectangulo-es-232-u2" class="md-nav__link">
+    <span class="md-ellipsis">
+      - Calcular el perímetro y area del cuadrado, con valores en memoria, dando el siguiente formato, ejemplo "El perímetro del rectángulo es: 43.2 u" y "El area del rectángulo es: 23.2 u2"
+    </span>
+  </a>
+  
 </li>
       
         <li class="md-nav__item">
@@ -673,6 +706,39 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Especificádores de formato">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dando-formato" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dando formato
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejemplos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-calcular-el-perimetro-y-area-del-cuadrado-con-valores-en-memoria-dando-el-siguiente-formato-ejemplo-el-perimetro-del-rectangulo-es-432-u-y-el-area-del-rectangulo-es-232-u2" class="md-nav__link">
+    <span class="md-ellipsis">
+      - Calcular el perímetro y area del cuadrado, con valores en memoria, dando el siguiente formato, ejemplo "El perímetro del rectángulo es: 43.2 u" y "El area del rectángulo es: 23.2 u2"
+    </span>
+  </a>
+  
 </li>
       
         <li class="md-nav__item">
@@ -868,12 +934,48 @@ Mundo
 Hola Mundo 
 2 
 </code></pre></div>
+<h3 id="dando-formato">Dando formato</h3>
+<p>Cuando números <code>float</code> o <code>double</code>, por default se agregan ceros al final para acompletar los espacios de un numero, es decir, si declaramos <code>float a = 4.32;</code> y mandamos a imprimir esta variable el resultado sera <code>4.320000</code>.
+Pero nosotros no queremos todo esos ceros o simplemente queremos menos decimales, para esto tenemos en los especificadores de formato la forma de indicar que lo acorte:</p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">){</span>
+<span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">valor</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">21.123456</span><span class="p">;</span>
+
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;El %.1f</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">valor</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;El %.2f</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">valor</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;El %.3f</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">valor</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;El %.4f</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">valor</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;El %.5f</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">valor</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;El %f</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">valor</span><span class="p">);</span>
+
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="ejemplos">Ejemplos</h2>
+<h2 id="-calcular-el-perimetro-y-area-del-cuadrado-con-valores-en-memoria-dando-el-siguiente-formato-ejemplo-el-perimetro-del-rectangulo-es-432-u-y-el-area-del-rectangulo-es-232-u2">- Calcular el perímetro y area del cuadrado, con valores en memoria, dando el siguiente formato, ejemplo "El perímetro del rectángulo es: 43.2 u" y "El area del rectángulo es: 23.2 u2"</h2>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">){</span>
+<span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">side</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">4.31</span><span class="p">;</span>
+
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;CALCULADORA DEL CUADRADO</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;El valor del lado es %f</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">side</span><span class="p">);</span>
+<span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">perimetro</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">side</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">4</span><span class="p">;</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;El perimetro es %f u</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">perimetro</span><span class="p">);</span>
+
+<span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">area</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">side</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">side</span><span class="p">;</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;El area es %f u2</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">area</span><span class="p">);</span>
+
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
 <h2 id="ejercicios">Ejercicios</h2>
 <ul>
 <li>Imprimir "Hola mundo"</li>
 <li>Imprimir una frase usando secuencias de escape para que entre palabras se haga un salto de línea</li>
 <li>Sumar 2 números e imprimir el resultado</li>
-<li>Ejercicio Calcular el perímetro con valores en memoria de [cuadrado|rectángulo], dando formato</li>
+<li><strong>Calcular el perímetro y area del rectángulo</strong>, con valores en memoria, dando el siguiente formato, ejemplo "El perimetro del rectangulo es: 43.2 u" y "El area del rectangulo es: 23.2 u2"</li>
 </ul>
 
 

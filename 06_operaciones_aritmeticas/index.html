@@ -795,26 +795,29 @@
 <li>El único símbolo para <strong>multiplicación</strong> es el asterisco (*), no existe algún otro ni ninguno más sirve para multiplicar.</li>
 <li><strong>Los paréntesis</strong> "( )" solo agrupan y nada mas. <strong>No sirven para multiplicar</strong>. </li>
 </ul>
-<p><div class="highlight"><pre><span></span><code><span class="kt">int</span><span class="w"> </span><span class="n">valor1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">4</span><span class="p">;</span>
-<span class="kt">int</span><span class="w"> </span><span class="n">valor2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span>
+<p><div class="highlight"><pre><span></span><code><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">valor1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">4</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">valor2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span>
 
-<span class="kt">int</span><span class="w"> </span><span class="n">suma</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">valor1</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">valor2</span><span class="p">;</span>
-<span class="kt">int</span><span class="w"> </span><span class="n">resta</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">valor1</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">valor2</span><span class="p">;</span>
-<span class="kt">int</span><span class="w"> </span><span class="n">multiplicacion</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">valor1</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">valor2</span><span class="p">;</span>
-<span class="kt">int</span><span class="w"> </span><span class="n">division</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">valor1</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">valor2</span><span class="p">;</span>
-<span class="kt">int</span><span class="w"> </span><span class="n">modulo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">valor1</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">valor2</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">suma</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">valor1</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">valor2</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">resta</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">valor1</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">valor2</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">multiplicacion</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">valor1</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">valor2</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">division</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">valor1</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="p">(</span><span class="kt">float</span><span class="p">)</span><span class="n">valor2</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">modulo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">valor1</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">valor2</span><span class="p">;</span>
 
-<span class="n">printf</span><span class="p">(</span><span class="s">&quot;La suma es %i </span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">suma</span><span class="p">);</span>
-<span class="n">printf</span><span class="p">(</span><span class="s">&quot;La resta es %i </span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">resta</span><span class="p">);</span>
-<span class="n">printf</span><span class="p">(</span><span class="s">&quot;La multiplicación es %i </span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">multiplicacion</span><span class="p">);</span>
-<span class="n">printf</span><span class="p">(</span><span class="s">&quot;La división es %i </span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">division</span><span class="p">);</span>
-<span class="n">printf</span><span class="p">(</span><span class="s">&quot;El residuo es %i </span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">modulo</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;La suma es %i </span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">suma</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;La resta es %i </span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">resta</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;La multiplicación es %d </span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">multiplicacion</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;La división es %f </span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">division</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;El residuo es %i </span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">modulo</span><span class="p">);</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
 </code></pre></div>
 Resultado:</p>
 <div class="highlight"><pre><span></span><code>La suma es 7 
 La resta es 1 
 La multiplicación es 12 
-La división es 1 
+La división es 1.333333 
 El residuo es 1 
 </code></pre></div>
 <h2 id="operador-unitario-">Operador unitario (-)</h2>
@@ -951,12 +954,28 @@ valor negativo: -4
 </code></pre></div>
 <h2 id="ejemplos-con-operadores-aritmeticos">Ejemplos con operadores aritméticos</h2>
 <ul>
-<li>Calcular el área de un cuadrado</li>
-<li>calcular el área y perímetro de un circulo</li>
+<li><strong>Calcular el área de un cuadrado</strong>. Imprimir calcular el perímetro y área. Los datos están en memoria.</li>
 </ul>
-<div class="highlight"><pre><span></span><code>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">){</span>
+<span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">side</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">4.31</span><span class="p">;</span>
+
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;CALCULADORA DEL CUADRADO</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;El valor del lado es %f</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">side</span><span class="p">);</span>
+<span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">perimetro</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">side</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">4</span><span class="p">;</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;El perimetro es %f u</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">perimetro</span><span class="p">);</span>
+
+<span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">area</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">side</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">side</span><span class="p">;</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;El area es %f u2</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">area</span><span class="p">);</span>
+
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
 </code></pre></div>
 <h2 id="ejercicios-con-operadores-aritmeticos">Ejercicios con operadores aritméticos</h2>
+<ul>
+<li><strong>calculadora del circulo</strong>. Imprimir calcular el perímetro y área. Los datos están en memoria.</li>
+</ul>
 
 
 

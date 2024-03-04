@@ -925,7 +925,40 @@
     - opción 1) perímetro 
     - opción 2) area
     - en caso que de otra opción indicar que "no existe la opción"</p>
-<div class="highlight"><pre><span></span><code>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">side</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">option</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;CALCULADORA DEL CUADRADO</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;1) Area</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;2) Perimetro</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%d&quot;</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">option</span><span class="p">);</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">option</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">1</span><span class="p">){</span>
+<span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Area</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Dar el lado: &quot;</span><span class="p">);</span>
+<span class="w">        </span><span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%f&quot;</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">side</span><span class="p">);</span>
+<span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;El area es %.2f</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="n">side</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">side</span><span class="p">));</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">option</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">2</span><span class="p">){</span>
+<span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Perimetro</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Dar el lado: &quot;</span><span class="p">);</span>
+<span class="w">        </span><span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%f&quot;</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">side</span><span class="p">);</span>
+<span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;El perimetro es %.2f</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="n">side</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">4</span><span class="p">));</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="kt">char</span><span class="o">*</span><span class="w"> </span><span class="n">frase</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;opcion no existe</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">;</span>
+<span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="n">option</span><span class="w"> </span><span class="o">&gt;</span><span class="mi">2</span><span class="p">){</span>
+<span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;%s&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">frase</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="n">option</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">1</span><span class="p">){</span>
+<span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;%s&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">frase</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
 </code></pre></div>
 <h2 id="ejercicios">Ejercicios</h2>
 <ul>

@@ -6,7 +6,7 @@ Para esto es la condición `if` (`si`) o estructura de decision `if`
 
 La sintaxis de la estructura `if` básica es la siguiente:
 
-![if basico](./assets/if_basico.png)
+![if básico](./assets/if_basico.png)
 
 ## Operadores de relación
 
@@ -72,7 +72,6 @@ Ahora veremos código de ejemplo con la estructura `if`
 ```c
 int edad = 18;
 
-
 if (edad >= 18){ // comparamos si la variable edad es mayor o igual a 18, en caso que sea verdadero se mostrara el texto
     printf("Eres mayor de edad");
 }
@@ -82,3 +81,22 @@ if (edad < 18){ // comparamos la variable
 }
 
 ```
+
+## Ejemplos 
+
+**Calculadora del Cuadrado**:
+    - opción 1) perímetro 
+    - opción 2) area
+    - en caso que de otra opción indicar que "no existe la opción"
+
+```c
+
+```
+
+## Ejercicios
+
+- El de las mascotas. Preguntar al usuario cuantas mascotas tiene, si tiene 3 o más, decir la frase "Eres amante de las mascotas", de lo contrario, decir, "Compra un gatito"
+- **Calculadora del Círculo**:
+    - opción 1) perímetro 
+    - opción 2) area
+    - en caso que de otra opción indicar que "no existe la opción"

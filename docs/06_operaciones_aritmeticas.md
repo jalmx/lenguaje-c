@@ -1,4 +1,4 @@
-# Operaciones
+# Operaciones Matemáticas
 
 ## Operadores aritméticos
 
@@ -101,5 +101,65 @@ En C, la expresiones son normalmente evaluador de izquierda a derecha. Sin embar
 !!! Nota
     Con respecto a las operaciones matemáticas que conoces, sigue funcionando igual, ahora debes añadir las relacionadas al lenguaje.
 
+## Funciones matemáticas
+
+El lenguaje C tiene de manera nativa una librería que nos facilita el calculo con funciones matemáticas. Para esto existe la librería `math.h`.
+
+```c
+// la importación de la librería
+
+#include <math.h>
+```
+
+De la funciones que nos pidiesen interesar son:
+
+- `sqrt(x)`: Calculo de raíz cuadrada
+- `pow(b,e)`: Calculo de potencia
+- `fabs(x)`: valor absoluto
+- `ceil(x)`: redondeo hacia abajo
+- `floor(x)`: redondeo hacia arriba
+- `cos(x)`: identidad trigonometría `coseno`, en radianes
+- `sin(x)`: identidad trigonometría `seno`, en radianes
+- `tan(x)`: identidad trigonometría `tangente`, en radianes
+
+Tiene muchas otras mas.
+
+```c
+#include <math.h>
+#include <stdio.h>
+
+int main()
+{
+    int potencia = pow(2,3);
+    int raiz = sqrt(25);
+    int redondeoArriba = floor(25.3);
+    int redondeoAbajo = ceil(25.7);
+    float coseno = cos(45);
+    float seno = sin(45);
+    float tangente = tan(45);
+
+    
+    printf("2 al cubo es: %d \n", potencia);
+    printf("la raiz de 25 es: %d \n", raiz);
+    printf("redondeo arriaba de 25.3 es: %d \n", redondeoArriba);
+    printf("redondeo abajo de 25.7 es: %d \n", redondeoAbajo);
+    printf("coseno de 45 es: %.2f \n", coseno);
+    printf("seno de 45 es: %.2f \n", seno);
+    printf("tangente de 45 es: %.2f \n", tangente);
+    return 0;
+}
+
+```
+
+## Ejemplos con operadores aritméticos
+
+- Calcular el área de un cuadrado
+- calcular el área y perímetro de un circulo
+
+```c
+
+```
+
 ## Ejercicios con operadores aritméticos
 
+ 

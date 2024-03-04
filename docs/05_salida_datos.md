@@ -21,7 +21,7 @@ La función `printf` nos sirve para mandar información a la consola, tiene mane
 
 ## Secuencias de escape
 
-Las secuencias de escape son caracteres especiales para `printf`, que no se puden colocar de manera cotidiana porque para C significa otra cosa, por lo tanto, dicho carácter se debe *escapar*; es decir, agregar un back slash al principio `\`. 
+Las secuencias de escape son caracteres especiales para `printf`, que no se pueden colocar de manera cotidiana porque para C significa otra cosa, por lo tanto, dicho carácter se debe *escapar*; es decir, agregar un back slash al principio `\`. 
 
 | Símbolo | Significado                                    |
 | ------- | ---------------------------------------------- |
@@ -110,3 +110,10 @@ printf("%d \n", valor);
 Hola Mundo 
 2 
 ```
+
+## Ejercicios
+
+- Imprimir "Hola mundo"
+- Imprimir una frase usando secuencias de escape para que entre palabras se haga un salto de línea
+- Sumar 2 números e imprimir el resultado
+- Ejercicio Calcular el perímetro con valores en memoria de [cuadrado|rectángulo], dando formato

@@ -23,20 +23,23 @@ En esta sección veremos los operadores aritméticos básicos que podemos encont
 
 
 ```c
-int valor1 = 4;
-int valor2 = 3;
+int main(){
+    int valor1 = 4;
+    int valor2 = 3;
 
-int suma = valor1 + valor2;
-int resta = valor1 - valor2;
-int multiplicacion = valor1 * valor2;
-int division = valor1 / valor2;
-int modulo = valor1 % valor2;
+    int suma = valor1 + valor2;
+    int resta = valor1 - valor2;
+    int multiplicacion = valor1 * valor2;
+    float division = valor1 / (float)valor2;
+    int modulo = valor1 % valor2;
 
-printf("La suma es %i \n", suma);
-printf("La resta es %i \n", resta);
-printf("La multiplicación es %i \n", multiplicacion);
-printf("La división es %i \n", division);
-printf("El residuo es %i \n", modulo);
+    printf("La suma es %i \n", suma);
+    printf("La resta es %i \n", resta);
+    printf("La multiplicación es %d \n", multiplicacion);
+    printf("La división es %f \n", division);
+    printf("El residuo es %i \n", modulo);
+    return 0;
+}
 ```
 Resultado:
 
@@ -44,7 +47,7 @@ Resultado:
 La suma es 7 
 La resta es 1 
 La multiplicación es 12 
-La división es 1 
+La división es 1.333333 
 El residuo es 1 
 ```
 
@@ -153,13 +156,26 @@ int main()
 
 ## Ejemplos con operadores aritméticos
 
-- Calcular el área de un cuadrado
-- calcular el área y perímetro de un circulo
+- **Calcular el área de un cuadrado**. Imprimir calcular el perímetro y área. Los datos están en memoria.
 
 ```c
+#include <stdio.h>
 
+int main(void){
+    float side = 4.31;
+
+    printf("CALCULADORA DEL CUADRADO\n");
+    printf("El valor del lado es %f\n", side);
+    float perimetro = side * 4;
+    printf("El perimetro es %f u\n", perimetro);
+
+    float area = side * side;
+    printf("El area es %f u2\n", area);
+    
+    return 0;
+}
 ```
 
 ## Ejercicios con operadores aritméticos
 
- 
+- **calculadora del circulo**. Imprimir calcular el perímetro y área. Los datos están en memoria.

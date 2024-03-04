@@ -111,9 +111,53 @@ Hola Mundo
 2 
 ```
 
+### Dando formato
+
+Cuando números `float` o `double`, por default se agregan ceros al final para acompletar los espacios de un numero, es decir, si declaramos `float a = 4.32;` y mandamos a imprimir esta variable el resultado sera `4.320000`.
+Pero nosotros no queremos todo esos ceros o simplemente queremos menos decimales, para esto tenemos en los especificadores de formato la forma de indicar que lo acorte:
+
+```c
+#include <stdio.h>
+
+int main(void){
+    float valor = 21.123456;
+
+    printf("El %.1f\n", valor);
+    printf("El %.2f\n", valor);
+    printf("El %.3f\n", valor);
+    printf("El %.4f\n", valor);
+    printf("El %.5f\n", valor);
+    printf("El %f\n", valor);
+    
+    return 0;
+}
+``` 
+
+## Ejemplos
+
+- Calcular el perímetro y area del cuadrado, con valores en memoria, dando el siguiente formato, ejemplo "El perímetro del rectángulo es: 43.2 u" y "El area del rectángulo es: 23.2 u2"
+- 
+```c
+#include <stdio.h>
+
+int main(void){
+    float side = 4.31;
+
+    printf("CALCULADORA DEL CUADRADO\n");
+    printf("El valor del lado es %f\n", side);
+    float perimetro = side * 4;
+    printf("El perimetro es %f u\n", perimetro);
+
+    float area = side * side;
+    printf("El area es %f u2\n", area);
+    
+    return 0;
+}
+```
+
 ## Ejercicios
 
 - Imprimir "Hola mundo"
 - Imprimir una frase usando secuencias de escape para que entre palabras se haga un salto de línea
 - Sumar 2 números e imprimir el resultado
-- Ejercicio Calcular el perímetro con valores en memoria de [cuadrado|rectángulo], dando formato
+- **Calcular el perímetro y area del rectángulo**, con valores en memoria, dando el siguiente formato, ejemplo "El perimetro del rectangulo es: 43.2 u" y "El area del rectangulo es: 23.2 u2"

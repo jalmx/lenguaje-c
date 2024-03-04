@@ -26,7 +26,7 @@
     
     
       
-        <title>Operaciones - Programa Tarjetas Electrónicas - Lenguaje C</title>
+        <title>Operaciones Matemáticas - Programa Tarjetas Electrónicas - Lenguaje C</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#operaciones" class="md-skip">
+        <a href="#operaciones-matematicas" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -118,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Operaciones
+              Operaciones Matemáticas
             
           </span>
         </div>
@@ -394,7 +394,7 @@
           
   
   <span class="md-ellipsis">
-    Operaciones
+    Operaciones Matemáticas
   </span>
   
 
@@ -405,7 +405,7 @@
         
   
   <span class="md-ellipsis">
-    Operaciones
+    Operaciones Matemáticas
   </span>
   
 
@@ -457,6 +457,24 @@
   <a href="#precedencia-de-operadores" class="md-nav__link">
     <span class="md-ellipsis">
       Precedencia de operadores
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funciones-matematicas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funciones matemáticas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplos-con-operadores-aritmeticos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejemplos con operadores aritméticos
     </span>
   </a>
   
@@ -586,11 +604,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../12_arreglos/" class="md-nav__link">
+      <a href="../practicas/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Arreglos (arrays)
+    Prácticas en C
   </span>
   
 
@@ -606,51 +624,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../13_funciones/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Funciones
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Ejemplos/" class="md-nav__link">
+      <a href="../secuencia/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Ejemplos
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Ejercicios/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Ejercicios
   </span>
   
 
@@ -722,6 +700,24 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#funciones-matematicas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funciones matemáticas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplos-con-operadores-aritmeticos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejemplos con operadores aritméticos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#ejercicios-con-operadores-aritmeticos" class="md-nav__link">
     <span class="md-ellipsis">
       Ejercicios con operadores aritméticos
@@ -748,7 +744,7 @@
   
 
 
-<h1 id="operaciones">Operaciones</h1>
+<h1 id="operaciones-matematicas">Operaciones Matemáticas</h1>
 <h2 id="operadores-aritmeticos">Operadores aritméticos</h2>
 <p>En esta sección veremos los operadores aritméticos básicos que podemos encontrar en la mayoría de lenguajes.</p>
 <table>
@@ -911,6 +907,55 @@ valor negativo: -4
 <p class="admonition-title">Nota</p>
 <p>Con respecto a las operaciones matemáticas que conoces, sigue funcionando igual, ahora debes añadir las relacionadas al lenguaje.</p>
 </div>
+<h2 id="funciones-matematicas">Funciones matemáticas</h2>
+<p>El lenguaje C tiene de manera nativa una librería que nos facilita el calculo con funciones matemáticas. Para esto existe la librería <code>math.h</code>.</p>
+<div class="highlight"><pre><span></span><code><span class="c1">// la importación de la librería</span>
+
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;math.h&gt;</span>
+</code></pre></div>
+<p>De la funciones que nos pidiesen interesar son:</p>
+<ul>
+<li><code>sqrt(x)</code>: Calculo de raíz cuadrada</li>
+<li><code>pow(b,e)</code>: Calculo de potencia</li>
+<li><code>fabs(x)</code>: valor absoluto</li>
+<li><code>ceil(x)</code>: redondeo hacia abajo</li>
+<li><code>floor(x)</code>: redondeo hacia arriba</li>
+<li><code>cos(x)</code>: identidad trigonometría <code>coseno</code>, en radianes</li>
+<li><code>sin(x)</code>: identidad trigonometría <code>seno</code>, en radianes</li>
+<li><code>tan(x)</code>: identidad trigonometría <code>tangente</code>, en radianes</li>
+</ul>
+<p>Tiene muchas otras mas.</p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;math.h&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">potencia</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">pow</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">);</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">raiz</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sqrt</span><span class="p">(</span><span class="mi">25</span><span class="p">);</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">redondeoArriba</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">floor</span><span class="p">(</span><span class="mf">25.3</span><span class="p">);</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">redondeoAbajo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ceil</span><span class="p">(</span><span class="mf">25.7</span><span class="p">);</span>
+<span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">coseno</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">cos</span><span class="p">(</span><span class="mi">45</span><span class="p">);</span>
+<span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">seno</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sin</span><span class="p">(</span><span class="mi">45</span><span class="p">);</span>
+<span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">tangente</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tan</span><span class="p">(</span><span class="mi">45</span><span class="p">);</span>
+
+
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;2 al cubo es: %d </span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">potencia</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;la raiz de 25 es: %d </span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">raiz</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;redondeo arriaba de 25.3 es: %d </span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">redondeoArriba</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;redondeo abajo de 25.7 es: %d </span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">redondeoAbajo</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;coseno de 45 es: %.2f </span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">coseno</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;seno de 45 es: %.2f </span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">seno</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;tangente de 45 es: %.2f </span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">tangente</span><span class="p">);</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="ejemplos-con-operadores-aritmeticos">Ejemplos con operadores aritméticos</h2>
+<ul>
+<li>Calcular el área de un cuadrado</li>
+<li>calcular el área y perímetro de un circulo</li>
+</ul>
+<div class="highlight"><pre><span></span><code>
+</code></pre></div>
 <h2 id="ejercicios-con-operadores-aritmeticos">Ejercicios con operadores aritméticos</h2>
 
 

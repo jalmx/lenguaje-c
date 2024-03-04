@@ -385,7 +385,7 @@
         
   
   <span class="md-ellipsis">
-    Operaciones
+    Operaciones Matemáticas
   </span>
   
 
@@ -410,6 +410,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Leyendo datos del usuario - Función scanf()
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -419,6 +430,34 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejemplos
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -511,11 +550,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../12_arreglos/" class="md-nav__link">
+      <a href="../practicas/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Arreglos (arrays)
+    Prácticas en C
   </span>
   
 
@@ -531,51 +570,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../13_funciones/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Funciones
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Ejemplos/" class="md-nav__link">
+      <a href="../secuencia/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Ejemplos
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Ejercicios/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Ejercicios
   </span>
   
 
@@ -604,6 +603,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejemplos
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -620,7 +636,7 @@
   
 
 
-<h1 id="leyendo-datos-del-usuario-funcion-scanf">Leyendo datos del usuario - Función scanf()</h1>
+<h1 id="leyendo-datos-del-usuario-funcion-scanf">Leyendo datos del usuario - Función <code>scanf()</code></h1>
 <p>Para ir mejorando nuestros programas, que sean dinámicos y mucho mas funcionales, debemos recibir información por parte del usuario. Para ello una manera es leyendo datos de teclado que ingresa el usuario, y esto es lo que nos permite realizar la función <code>scanf()</code>. Que podríamos decir que complementa a la función <code>printf()</code>.</p>
 <p>En la siguiente imagen se ve como cada parte de la sentencia:</p>
 <p><img alt="scanf" src="../assets/scanf.png" /></p>
@@ -633,6 +649,31 @@
 <span class="kt">int</span><span class="w"> </span><span class="n">edadNueva</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">edad</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span><span class="w"> </span><span class="c1">// hago una operación con este valor </span>
 
 <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Tu edad en 5 anios sera de: %d&quot;</span><span class="n">d</span><span class="p">,</span><span class="w"> </span><span class="n">edadNueva</span><span class="p">);</span><span class="c1">// Recuerda que los símbolos del abecedario ingles no tiene la eñe, y no podemos poner de manera directa ese símbolo especial</span>
+</code></pre></div>
+<h2 id="ejemplos">Ejemplos</h2>
+<ul>
+<li>Calcular el promedio de una materia, solicitar cada parcial (3) al usuario, e imprimir el resultado con una frase, ejemplo: "Tu promedio es: 5.4"</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">argc</span><span class="p">,</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">cal1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">cal2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">cal3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Dar la calificacion 1: &quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%f&quot;</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">cal1</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Dar la calificacion 2: &quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%f&quot;</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">cal2</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Dar la calificacion 3: &quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%f&quot;</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">cal3</span><span class="p">);</span>
+
+<span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">promedio</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">cal1</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">cal2</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">cal3</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span>
+
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Tu promedio es %.2f</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">promedio</span><span class="p">);</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
 </code></pre></div>
 
 
@@ -663,7 +704,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Pie" >
         
           
-          <a href="../06_operaciones_aritmeticas/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Operaciones">
+          <a href="../06_operaciones_aritmeticas/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Operaciones Matemáticas">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -673,7 +714,7 @@
                 Anterior
               </span>
               <div class="md-ellipsis">
-                Operaciones
+                Operaciones Matemáticas
               </div>
             </div>
           </a>

@@ -385,7 +385,7 @@
         
   
   <span class="md-ellipsis">
-    Operaciones
+    Operaciones Matemáticas
   </span>
   
 
@@ -470,6 +470,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Introducción a ciclos (while)
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -479,6 +490,43 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#estructura-del-ciclo-while" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estructura del ciclo while
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejemplos
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -511,11 +559,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../12_arreglos/" class="md-nav__link">
+      <a href="../practicas/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Arreglos (arrays)
+    Prácticas en C
   </span>
   
 
@@ -531,51 +579,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../13_funciones/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Funciones
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Ejemplos/" class="md-nav__link">
+      <a href="../secuencia/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Ejemplos
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Ejercicios/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Ejercicios
   </span>
   
 
@@ -604,6 +612,32 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#estructura-del-ciclo-while" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estructura del ciclo while
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejemplos
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -621,7 +655,22 @@
 
 
 <h1 id="introduccion-a-ciclos-while">Introducción a ciclos (while)</h1>
-<p><img alt="" src="../assets/while_structure.png" /></p>
+<p>Si deseas conocer la teoría básica de ciclos, ve a la documentación de <a href="https://www.alejandro-leyva.com/algoritmos/12_ciclos/">algoritmos en la sección de ciclos</a></p>
+<h2 id="estructura-del-ciclo-while">Estructura del ciclo <code>while</code></h2>
+<p>El primer ciclo que vamos a conocer se llama <code>while</code> (<em>mientras</em>). Este ciclo, primero verifica una comparación y en caso que se cierta o de como resultado <code>true</code>, entrara al bloque de código que esta entre las llaves, una vez termina la ultima linea; es decir, antes de la llave de cierre, vuelve a la comparación inicial y evalúa la comparación, en caso que sea <code>true</code> repite el ciclo, de lo contrario termina y continua la ejecución del programa.</p>
+<p><img alt="while" src="../assets/while_structure.png" /></p>
+<div class="highlight"><pre><span></span><code><span class="k">while</span><span class="p">(</span><span class="n">comparacion_a_true</span><span class="p">){</span><span class="w"> </span><span class="c1">//inicia bloque while</span>
+
+<span class="w">    </span><span class="c1">// bloque de código que se repite </span>
+<span class="w">    </span><span class="c1">// hasta que la companion no se cumpla</span>
+
+<span class="p">}</span><span class="w"> </span><span class="c1">//termina bloque while</span>
+</code></pre></div>
+<h2 id="ejemplos">Ejemplos</h2>
+<ul>
+<li>Imprimir 5 veces la palabra "Hola"</li>
+<li>Imprimir del 0 al 5</li>
+</ul>
 
 
 

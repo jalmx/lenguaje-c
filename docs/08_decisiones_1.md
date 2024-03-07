@@ -116,11 +116,11 @@ int main(void)
 
     char* frase = "opcion no existe\n";
     if(option >2){
-        printf("%s", frase);
+        printf("%s\n", frase);
     }
 
     if(option < 1){
-        printf("%s", frase);
+        printf("%s\n", frase);
     }
     return 0;
 }

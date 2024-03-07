@@ -9,14 +9,18 @@ En la siguiente imagen se ve como cada parte de la sentencia:
 En el siguiente ejemplo vemos como quedaría un código:
 
 ```c
-int edad = 0;
+#include <stdio.h>
 
-printf("Dar el valor de la tu edad");
-scanf("%d", &edad); //recibo el dato y lo almaceno en edad
+int main(){
+    int edad = 0;
 
-int edadNueva = edad + 5; // hago una operación con este valor 
+    printf("Dar el valor de la tu edad: ");
+    scanf("%d", &edad); //recibo el dato y lo almaceno en la variable edad
 
-printf("Tu edad en 5 anios sera de: %d"d, edadNueva);// Recuerda que los símbolos del abecedario ingles no tiene la eñe, y no podemos poner de manera directa ese símbolo especial
+    int edadNueva = edad + 5; // hago una operación con este valor 
+
+    printf("Tu edad en 5 anios sera de: %d\n", edadNueva);// Recuerda que los símbolos del abecedario ingles no tiene la eñe, y no podemos poner de manera directa ese símbolo especial
+}
 ```
 
 ## Ejemplos
@@ -26,8 +30,8 @@ printf("Tu edad en 5 anios sera de: %d"d, edadNueva);// Recuerda que los símbol
 ```c
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
-{
+int main(){
+    
     float cal1 = 0;
     float cal2 = 0;
     float cal3 = 0;
@@ -45,3 +49,9 @@ int main(int argc, char const *argv[])
     return 0;
 }
 ``` 
+
+## Ejercicios
+
+- **Calculadora del circulo**. Imprimir calcular el perímetro y área. Solicitar los datos al usuario. Dar formato a la salida del resultado, ejemplo: "El area del circulo es 32.4 u2", "El perimetro del circulo es 11.34 u"
+- **Calculadora de Fuerza (Segunda Ley de Newton)**: Solicitar al usuario el valor de la *masa* y la *aceleración*, hacer el calculo de la fuerza. Formula $F=masa * aceleración$. El mensaje de salida debe tener el siguiente formato =="*La fuerza es 87.65 N*"==
+- **Calculadora de Corriente (Ley de Ohms)**: Solicitar al usuario el valor del *voltaje* y la *resistencia*. Hacer el calculo de la corriente. Formula $I = \frac{Voltaje}{Resistencia}$.

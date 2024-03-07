@@ -23,6 +23,8 @@ En esta sección veremos los operadores aritméticos básicos que podemos encont
 
 
 ```c
+#include <stdio.h>
+
 int main(){
     int valor1 = 4;
     int valor2 = 3;

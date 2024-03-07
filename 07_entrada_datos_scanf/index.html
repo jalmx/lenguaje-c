@@ -455,6 +455,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#ejercicios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicios
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -618,6 +627,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#ejercicios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejercicios
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -641,14 +659,18 @@
 <p>En la siguiente imagen se ve como cada parte de la sentencia:</p>
 <p><img alt="scanf" src="../assets/scanf.png" /></p>
 <p>En el siguiente ejemplo vemos como quedaría un código:</p>
-<div class="highlight"><pre><span></span><code><span class="kt">int</span><span class="w"> </span><span class="n">edad</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
 
-<span class="n">printf</span><span class="p">(</span><span class="s">&quot;Dar el valor de la tu edad&quot;</span><span class="p">);</span>
-<span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%d&quot;</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">edad</span><span class="p">);</span><span class="w"> </span><span class="c1">//recibo el dato y lo almaceno en edad</span>
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">edad</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
 
-<span class="kt">int</span><span class="w"> </span><span class="n">edadNueva</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">edad</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span><span class="w"> </span><span class="c1">// hago una operación con este valor </span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Dar el valor de la tu edad: &quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%d&quot;</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">edad</span><span class="p">);</span><span class="w"> </span><span class="c1">//recibo el dato y lo almaceno en la variable edad</span>
 
-<span class="n">printf</span><span class="p">(</span><span class="s">&quot;Tu edad en 5 anios sera de: %d&quot;</span><span class="n">d</span><span class="p">,</span><span class="w"> </span><span class="n">edadNueva</span><span class="p">);</span><span class="c1">// Recuerda que los símbolos del abecedario ingles no tiene la eñe, y no podemos poner de manera directa ese símbolo especial</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">edadNueva</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">edad</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span><span class="w"> </span><span class="c1">// hago una operación con este valor </span>
+
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Tu edad en 5 anios sera de: %d</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">edadNueva</span><span class="p">);</span><span class="c1">// Recuerda que los símbolos del abecedario ingles no tiene la eñe, y no podemos poner de manera directa ese símbolo especial</span>
+<span class="p">}</span>
 </code></pre></div>
 <h2 id="ejemplos">Ejemplos</h2>
 <ul>
@@ -656,8 +678,8 @@
 </ul>
 <div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
 
-<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">argc</span><span class="p">,</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
-<span class="p">{</span>
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span>
+
 <span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">cal1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
 <span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">cal2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
 <span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">cal3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
@@ -675,6 +697,12 @@
 <span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div>
+<h2 id="ejercicios">Ejercicios</h2>
+<ul>
+<li><strong>Calculadora del circulo</strong>. Imprimir calcular el perímetro y área. Solicitar los datos al usuario. Dar formato a la salida del resultado, ejemplo: "El area del circulo es 32.4 u2", "El perimetro del circulo es 11.34 u"</li>
+<li><strong>Calculadora de Fuerza (Segunda Ley de Newton)</strong>: Solicitar al usuario el valor de la <em>masa</em> y la <em>aceleración</em>, hacer el calculo de la fuerza. Formula <span class="arithmatex">\(F=masa * aceleración\)</span>. El mensaje de salida debe tener el siguiente formato <mark>"<em>La fuerza es 87.65 N</em>"</mark></li>
+<li><strong>Calculadora de Corriente (Ley de Ohms)</strong>: Solicitar al usuario el valor del <em>voltaje</em> y la <em>resistencia</em>. Hacer el calculo de la corriente. Formula <span class="arithmatex">\(I = \frac{Voltaje}{Resistencia}\)</span>.</li>
+</ul>
 
 
 

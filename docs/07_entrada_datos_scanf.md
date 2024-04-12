@@ -52,6 +52,6 @@ int main(){
 
 ## Ejercicios
 
-- **Calculadora del circulo**. Imprimir calcular el perímetro y área. Solicitar los datos al usuario. Dar formato a la salida del resultado, ejemplo: "El area del circulo es 32.4 u2", "El perimetro del circulo es 11.34 u"
+- **Calculadora del circulo**. Imprimir calcular el perímetro y área. Solicitar los datos al usuario. Dar formato a la salida del resultado, ejemplo: "El area del circulo es 32.4 u2", "El perímetro del circulo es 11.34 u"
 - **Calculadora de Fuerza (Segunda Ley de Newton)**: Solicitar al usuario el valor de la *masa* y la *aceleración*, hacer el calculo de la fuerza. Formula $F=masa * aceleración$. El mensaje de salida debe tener el siguiente formato =="*La fuerza es 87.65 N*"==
 - **Calculadora de Corriente (Ley de Ohms)**: Solicitar al usuario el valor del *voltaje* y la *resistencia*. Hacer el calculo de la corriente. Formula $I = \frac{Voltaje}{Resistencia}$.

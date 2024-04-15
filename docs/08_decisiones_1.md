@@ -70,32 +70,41 @@ En  este caso las variables tienen este valor:
 Ahora veremos código de ejemplo con la estructura `if`
 
 ```c
-int edad = 18;
+#include <stdio.h>
 
-if (edad >= 18){ // comparamos si la variable edad es mayor o igual a 18, en caso que sea verdadero se mostrara el texto
-    printf("Eres mayor de edad");
+int main(){
+    
+    int edad = 0;
+
+    printf("Dar el valor de la tu edad: ");
+    scanf("%d", &edad); //recibo el dato y lo almaceno en la variable edad
+
+    if (edad >= 18){ // comparamos si la variable edad es mayor o igual a 18, en caso que sea verdadero se mostrara el texto
+        printf("Eres mayor de edad\n");
+    }
+
+    if (edad < 18){ // comparamos la variable
+        printf("Eres menor de edad\n");
+    }
+    return 0;
 }
-
-if (edad < 18){ // comparamos la variable
-    printf("Eres menor de edad");
-}
-
 ```
 
 ## Ejemplos 
 
 **Calculadora del Cuadrado**:
-    - opción 1) perímetro 
-    - opción 2) area
-    - en caso que de otra opción indicar que "no existe la opción"
+
+- opción 1) perímetro 
+- opción 2) area
+- en caso que de otra opción indicar que "no existe la opción"
 
 ```c
 #include <stdio.h>
 
 int main(void)
 {
-    float side = 0.0;
-    int option = 0;
+    float side = 0.0; //almaceno el valor del lado del cuadrado
+    int option = 0;     //guardo el valor de la opción que me dan
     printf("CALCULADORA DEL CUADRADO\n");
     printf("1) Area\n");
     printf("2) Perimetro\n");

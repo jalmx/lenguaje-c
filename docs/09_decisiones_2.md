@@ -153,23 +153,24 @@ int main(void){
 }
 ```
 
-## Ejemplos
+## Ejercicios (*if-else*)
 
-- Solicitar un numero al usuario, e imprimir si el numero es "**múltiplo de 3**" o "**NO múltiplo de 3**"
+- Solicitar un numero al usuario, e imprimir si el numero es "**múltiplo de 3**" o "**NO múltiplo de 3**".(Es decir, es divisible entre 3)
 - Calculadora de Ley de ohm. Dar las 4 opciones al usuario.
-        - 1) Calcular Voltaje
-        - 2) Calcular Corriente
-        - 3) Calcular Resistencia
-        - 4) Salir del programa
-        - Si da una opción que no existe, debe indicarlo y terminar el programa
+    - 1) Calcular Voltaje
+    - 2) Calcular Corriente
+    - 3) Calcular Resistencia
+    - 4) Salir del programa
+    - Si da una opción que no existe, debe indicarlo y terminar el programa
 - Calculo de resistencia en serie y paralelo, Se le dará lan opciones al usuario para elegir que desea calcular, es decir, 
     - si paralelo o serie,
     - después solicita 3 valores e imprime el resultado.
     - Si da un opción no valida, no solicita nada y termina el programa
+    - Ecuación se serie $R_T = \Sigma_{i=1}^{n} R_{i}$
+    - Ecuación paralelo $R_T= \frac{1}{\Sigma_{i=1}^{n}\frac{1}{R_i} }$
 - Calcular el promedio final, solicita al usuario sus calificaciones parciales una a una, y al final da el mensaje "Aprobado", en caso que haya pasado arriba de 6 y "Estas en repite" si es menor.
 
 ---
-
 
 ## Operadores lógicos
 
@@ -178,7 +179,7 @@ Un operador lógico sirve para combinar comparaciones y en función del resultad
 
 ## Las tablas de verdad de los operadores:
 
-### AND (Y)
+### AND (Y) -> (&&)
 
 |Entrada 1 | Entrada 2 | Salida
 |-|-|-|
@@ -190,7 +191,7 @@ Un operador lógico sirve para combinar comparaciones y en función del resultad
 !!! note "Regla"
     ***AND** nos dice que mientras exista a la entrada un `false`, tendremos un valor `false` a la salida*
 
-### OR (O)
+### OR (O) -> (||)
 
 |Entrada 1 | Entrada 2 | Salida|
 |-|-|-|
@@ -202,7 +203,7 @@ Un operador lógico sirve para combinar comparaciones y en función del resultad
 !!! note "Regla"
     ***OR** nos dice que mientras exista a la entrada un `true`, tendremos un valor `true` a la salida*
 
-### NOT (NO) (Inverter)
+### NOT (NO) (Inverter) -> (!)
 
 |Entrada| Salida|
 |-|-|
@@ -252,15 +253,13 @@ Se pueden concatenar (unir) **n comparaciones** con operadores lógicos, pero si
 |`(10 <= 5)` `&&` `(1 != -8)`| `false`
 |`!(2 == 2)`| `false`
 
-## Ejemplos
+## Ejemplos (operadores lógicos)
 
-!!! example "Ejemplo 1"
+- Solicitar un número de entre 0 al 20, si el número es menor a 10 **Y** par, indicar que el "número es par y menor a 10"; si es menor a 10, pero NO es **par** dar el mensaje "Número menor a 10", de lo contrario que indique que es mayor a 10. 
 
-    Solicitar un número de entre 0 al 20, si el número es menor a 10 y par, indicar que "el número es par y menor a 10"; si es menor a 10, pero no es **par** dar el mensaje "Número menor a 10", de lo contrario que indique que es mayor a 10. 
-    
+## Ejercicios (operadores lógicos)
 
-!!! example "Ejemplo 2"
-    En una variable almacena la calificación, se debe verificar el valor de la calificacion es valida; es decir, calificaciones arriaba de 10 y abajo de 0 no son posibles, la calificación reprobatoria es por debajo de 6 y aprobatoria arriaba de 6.0. 
+- Preguntar al usuario si le "gusta correr" y después si le "gusta nadar", si ambos casos responde que _1)si_ _2)no_, mandar el mensaje de que "es muy fitness", de lo contrario "deberías hacer más ejercicio" (Operadores lógicos)
+- En una variable almacena la calificación, se debe verificar el valor de la calificación es valida; es decir, calificaciones arriaba de 10 **Y** abajo de 0, "no es posibles"; si la calificación es menor o igual a 10 **Y** mayor o igual a cero, debe indicar que es correcta la calificación.    
 
-    
-> ***Nota**: No es la única forma en la que se pueden realizar estos ejercicios, recuerda que lo importante es resolver el problema, que hayan mas o menos pasos, diferentes formulas, etc, no significa que este mal*.
+> ***Nota**: No es la única forma en la que se pueden realizar estos ejemplos y ejercicios, recuerda que lo importante es resolver el problema, que hayan más o menos pasos, diferentes formulas, etc, no significa que este mal*.

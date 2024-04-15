@@ -910,27 +910,38 @@
 </table>
 <h2 id="aplicando-la-estructura-if">Aplicando la estructura <em>if</em></h2>
 <p>Ahora veremos código de ejemplo con la estructura <code>if</code></p>
-<div class="highlight"><pre><span></span><code><span class="kt">int</span><span class="w"> </span><span class="n">edad</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">18</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
 
-<span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">edad</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">18</span><span class="p">){</span><span class="w"> </span><span class="c1">// comparamos si la variable edad es mayor o igual a 18, en caso que sea verdadero se mostrara el texto</span>
-<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Eres mayor de edad&quot;</span><span class="p">);</span>
-<span class="p">}</span>
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span>
 
-<span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">edad</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">18</span><span class="p">){</span><span class="w"> </span><span class="c1">// comparamos la variable</span>
-<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Eres menor de edad&quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">edad</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Dar el valor de la tu edad: &quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%d&quot;</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">edad</span><span class="p">);</span><span class="w"> </span><span class="c1">//recibo el dato y lo almaceno en la variable edad</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">edad</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">18</span><span class="p">){</span><span class="w"> </span><span class="c1">// comparamos si la variable edad es mayor o igual a 18, en caso que sea verdadero se mostrara el texto</span>
+<span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Eres mayor de edad</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">edad</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">18</span><span class="p">){</span><span class="w"> </span><span class="c1">// comparamos la variable</span>
+<span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Eres menor de edad</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div>
 <h2 id="ejemplos">Ejemplos</h2>
-<p><strong>Calculadora del Cuadrado</strong>:
-    - opción 1) perímetro 
-    - opción 2) area
-    - en caso que de otra opción indicar que "no existe la opción"</p>
+<p><strong>Calculadora del Cuadrado</strong>:</p>
+<ul>
+<li>opción 1) perímetro </li>
+<li>opción 2) area</li>
+<li>en caso que de otra opción indicar que "no existe la opción"</li>
+</ul>
 <div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
 
 <span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
 <span class="p">{</span>
-<span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">side</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">;</span>
-<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">option</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">float</span><span class="w"> </span><span class="n">side</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">;</span><span class="w"> </span><span class="c1">//almaceno el valor del lado del cuadrado</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">option</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w">     </span><span class="c1">//guardo el valor de la opción que me dan</span>
 <span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;CALCULADORA DEL CUADRADO</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
 <span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;1) Area</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
 <span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;2) Perimetro</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>

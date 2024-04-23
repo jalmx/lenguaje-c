@@ -22,12 +22,18 @@ El anterior código que hicimos lo podemos mejorar con la siguiente modificació
 
 
 ```c
-int edad = 18;
+#include <stdio.h>
 
-if (edad >= 18){ // comparamos si la variable edad es mayor o igual a 18, en caso que sea verdadero se mostrara el texto
-    printf("Eres mayor de edad");
-}else{ // comparamos la variable
-    printf("Eres menor de edad");
+int main(){
+    
+    int edad = 18;
+
+    if (edad >= 18){ // comparamos si la variable edad es mayor o igual a 18, en caso que sea verdadero se mostrara el texto
+        printf("Eres mayor de edad");
+    }else{ // comparamos la variable
+        printf("Eres menor de edad");
+    }
+    return 0;
 }
 ```
 
@@ -74,9 +80,10 @@ if (comparacion_a_true){
 ## Ejercicios
 
 **Calculadora del Cuadrado**:
-    - opción 1) perímetro 
-    - opción 2) area
-    - en caso que de otra opción indicar que "no existe la opción"
+
+- opción 1) perímetro 
+- opción 2) area
+- en caso que de otra opción indicar que "no existe la opción"
 
 ```c
 #include <stdio.h>
@@ -127,7 +134,7 @@ int main(void){
     return 0;
 }
 ```
-- **Dar 2 números e indicar cual es el menor de los 3**
+- **Dar 2 números e indicar cual es el mayor de los 2, o sin son iguales**
 
 ```c
 #include <stdio.h>
@@ -145,7 +152,7 @@ int main(void){
     if (valor1 > valor2){
         printf("%d es mayor que %d\n", valor1, valor2);
     }else if (valor1 < valor2){
-        printf("%d es menor que %d\n", valor1, valor2);
+        printf("%d es mayor que %d\n", valor1, valor2);
     }else{
         printf("%d es igual a %d\n", valor1, valor2);
     }

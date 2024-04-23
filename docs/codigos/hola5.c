@@ -2,11 +2,8 @@
 
 int main(void){
     
-    int contador = 0;
-
-    while (contador <= 5){
-        printf("%d\n", contador);
-        contador = contador + 1;     
+    for (int i = 1; i <= 5; i++){
+        printf("%d\n",i);
     }
     
     return 0;

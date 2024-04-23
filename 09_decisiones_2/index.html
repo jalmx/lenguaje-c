@@ -877,12 +877,18 @@
 <span class="p">}</span>
 </code></pre></div>
 <p>El anterior código que hicimos lo podemos mejorar con la siguiente modificación:</p>
-<div class="highlight"><pre><span></span><code><span class="kt">int</span><span class="w"> </span><span class="n">edad</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">18</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
 
-<span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">edad</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">18</span><span class="p">){</span><span class="w"> </span><span class="c1">// comparamos si la variable edad es mayor o igual a 18, en caso que sea verdadero se mostrara el texto</span>
-<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Eres mayor de edad&quot;</span><span class="p">);</span>
-<span class="p">}</span><span class="k">else</span><span class="p">{</span><span class="w"> </span><span class="c1">// comparamos la variable</span>
-<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Eres menor de edad&quot;</span><span class="p">);</span>
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span>
+
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">edad</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">18</span><span class="p">;</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">edad</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">18</span><span class="p">){</span><span class="w"> </span><span class="c1">// comparamos si la variable edad es mayor o igual a 18, en caso que sea verdadero se mostrara el texto</span>
+<span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Eres mayor de edad&quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span><span class="k">else</span><span class="p">{</span><span class="w"> </span><span class="c1">// comparamos la variable</span>
+<span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Eres menor de edad&quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div>
 <h2 id="if-else-anidados"><code>if-else</code> anidados</h2>
@@ -920,10 +926,12 @@
 <span class="w">    </span><span class="p">}</span>
 </code></pre></div>
 <h2 id="ejercicios">Ejercicios</h2>
-<p><strong>Calculadora del Cuadrado</strong>:
-    - opción 1) perímetro 
-    - opción 2) area
-    - en caso que de otra opción indicar que "no existe la opción"</p>
+<p><strong>Calculadora del Cuadrado</strong>:</p>
+<ul>
+<li>opción 1) perímetro </li>
+<li>opción 2) area</li>
+<li>en caso que de otra opción indicar que "no existe la opción"</li>
+</ul>
 <div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
 
 <span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">){</span>
@@ -971,7 +979,7 @@
 <span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div>
-- <strong>Dar 2 números e indicar cual es el menor de los 3</strong></p>
+- <strong>Dar 2 números e indicar cual es el mayor de los 2, o sin son iguales</strong></p>
 <div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
 
 <span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">){</span>
@@ -987,7 +995,7 @@
 <span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">valor1</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">valor2</span><span class="p">){</span>
 <span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;%d es mayor que %d</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">valor1</span><span class="p">,</span><span class="w"> </span><span class="n">valor2</span><span class="p">);</span>
 <span class="w">    </span><span class="p">}</span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">valor1</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">valor2</span><span class="p">){</span>
-<span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;%d es menor que %d</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">valor1</span><span class="p">,</span><span class="w"> </span><span class="n">valor2</span><span class="p">);</span>
+<span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;%d es mayor que %d</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">valor1</span><span class="p">,</span><span class="w"> </span><span class="n">valor2</span><span class="p">);</span>
 <span class="w">    </span><span class="p">}</span><span class="k">else</span><span class="p">{</span>
 <span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;%d es igual a %d</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">valor1</span><span class="p">,</span><span class="w"> </span><span class="n">valor2</span><span class="p">);</span>
 <span class="w">    </span><span class="p">}</span>

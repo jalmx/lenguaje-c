@@ -48,7 +48,7 @@ int main(){
     printf("Tu promedio es %.2f\n", promedio);
     return 0;
 }
-``` 
+```
 
 ## Ejercicios
 

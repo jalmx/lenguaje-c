@@ -2,7 +2,6 @@
 
 Lo primero que aprenderemos es como mandar mensajes a la consola o terminal, y es utilizando la función `printf();`. Como se muestra en el siguiente ejemplo:
 
-
 ```C
 // main.c
 #include <stdio.h> // se debe importar la librería estándar de entradas y salidas para poder usar printf, de lo contrario marcara un error al compilar
@@ -21,7 +20,7 @@ La función `printf` nos sirve para mandar información a la consola, tiene mane
 
 ## Secuencias de escape
 
-Las secuencias de escape son caracteres especiales para `printf`, que no se pueden colocar de manera cotidiana porque para C significa otra cosa, por lo tanto, dicho carácter se debe *escapar*; es decir, agregar un back slash al principio `\`. 
+Las secuencias de escape son caracteres especiales para `printf`, que no se pueden colocar de manera cotidiana porque para C significa otra cosa, por lo tanto, dicho carácter se debe *escapar*; es decir, agregar un back slash al principio `\`.
 
 | Símbolo | Significado                                    |
 | ------- | ---------------------------------------------- |
@@ -39,6 +38,7 @@ Aplicando las secuencias de escape
 ```c
 printf("Hola\nMundo");
 ```
+
 ```
 Hola
 Mundo
@@ -47,6 +47,7 @@ Mundo
 ```c
 printf("Hola\tMundo");
 ```
+
 ```
 Hola    Mundo
 ```
@@ -54,14 +55,15 @@ Hola    Mundo
 ```c
 printf("\"Hola Mundo\"");
 ```
+
 ```
 "Hola Mundo"
 ```
 
-
 ```c
 printf("\'Hola Mundo\'");
 ```
+
 ```
 'Hola Mundo'
 ```
@@ -87,7 +89,6 @@ Se debe utilizar el símbolo de `%` seguido de la letra que le corresponde al ti
 | `%lu`                    | `unsigned long int`                              | Entero sin signo            |
 | `%llu`                   | `unsigned long long int`                         | Entero sin signo            |
 | `%p`                     | `*`                                              | Dirección de puntero       |
-
 
 ```c
 uint8_t valor = 2;
@@ -131,12 +132,13 @@ int main(void){
     
     return 0;
 }
-``` 
+```
 
 ## Ejemplos
 
 - Calcular el perímetro y area del cuadrado, con valores en memoria, dando el siguiente formato, ejemplo "El perímetro del rectángulo es: 43.2 u" y "El area del rectángulo es: 23.2 u2"
-- 
+-
+
 ```c
 #include <stdio.h>
 

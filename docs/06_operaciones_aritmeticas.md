@@ -19,8 +19,7 @@ En esta sección veremos los operadores aritméticos básicos que podemos encont
 
 - El único símbolo que podemos ocupar para la **división** es la diagonal o slash (/), no existe otro símbolo ni tampoco se puede ocupar los tradicionales que conocemos.
 - El único símbolo para **multiplicación** es el asterisco (\*), no existe algún otro ni ninguno más sirve para multiplicar.
-- **Los paréntesis** "( )" solo agrupan y nada mas. **No sirven para multiplicar**. 
-
+- **Los paréntesis** "( )" solo agrupan y nada mas. **No sirven para multiplicar**.
 
 ```c
 #include <stdio.h>
@@ -43,6 +42,7 @@ int main(){
     return 0;
 }
 ```
+
 Resultado:
 
 ```
@@ -64,14 +64,13 @@ int inverso = -valor; // aquí aplicamos el operador unitario
 printf("valor: %d\n", valor);
 printf("valor negativo: %d\n", inverso);
 ```
+
 Resultado:
 
 ```
 valor: 4
 valor negativo: -4
 ```
-
-
 
 ## Operador de asignación (=)
 
@@ -80,11 +79,9 @@ El operador de asignación (`=`), el cual **asigna** un valor a una variable.
 !!! danger
     No es lo mismo **asignar** que **igualar**; es decir, en programación se guardar un dato en una dirección de memoria, e igualar se usa en matemáticas.
 
-
 ## Precedencia de operadores
 
 En C, la expresiones son normalmente evaluador de izquierda a derecha. Sin embargo, cuando una expresión contiene multiples operadores, la precedencia de decide el orden en el cual serán evaluados. Este orden es aplicable a otros muchos lenguajes como C++, C#, Java.
-
 
 | Orden | Operador                                  |
 | :---: | ----------------------------------------- |

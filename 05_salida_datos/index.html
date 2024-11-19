@@ -783,7 +783,7 @@
 </code></pre></div>
 <p>La función <code>printf</code> nos sirve para mandar información a la consola, tiene manera especiales para escribir los tipos de datos y ademas tiene caracteres especiales que se detallan a continuación.</p>
 <h2 id="secuencias-de-escape">Secuencias de escape</h2>
-<p>Las secuencias de escape son caracteres especiales para <code>printf</code>, que no se pueden colocar de manera cotidiana porque para C significa otra cosa, por lo tanto, dicho carácter se debe <em>escapar</em>; es decir, agregar un back slash al principio <code>\</code>. </p>
+<p>Las secuencias de escape son caracteres especiales para <code>printf</code>, que no se pueden colocar de manera cotidiana porque para C significa otra cosa, por lo tanto, dicho carácter se debe <em>escapar</em>; es decir, agregar un back slash al principio <code>\</code>.</p>
 <table>
 <thead>
 <tr>
@@ -820,23 +820,23 @@
 </table>
 <h3 id="ejemplos-con-secuencias-de-escape">Ejemplos con secuencias de escape</h3>
 <p>Aplicando las secuencias de escape</p>
-<p><div class="highlight"><pre><span></span><code><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hola</span><span class="se">\n</span><span class="s">Mundo&quot;</span><span class="p">);</span>
+<div class="highlight"><pre><span></span><code><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hola</span><span class="se">\n</span><span class="s">Mundo&quot;</span><span class="p">);</span>
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>Hola
 Mundo
-</code></pre></div></p>
-<p><div class="highlight"><pre><span></span><code><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hola</span><span class="se">\t</span><span class="s">Mundo&quot;</span><span class="p">);</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hola</span><span class="se">\t</span><span class="s">Mundo&quot;</span><span class="p">);</span>
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>Hola    Mundo
-</code></pre></div></p>
-<p><div class="highlight"><pre><span></span><code><span class="n">printf</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\&quot;</span><span class="s">Hola Mundo</span><span class="se">\&quot;</span><span class="s">&quot;</span><span class="p">);</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="n">printf</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\&quot;</span><span class="s">Hola Mundo</span><span class="se">\&quot;</span><span class="s">&quot;</span><span class="p">);</span>
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>&quot;Hola Mundo&quot;
-</code></pre></div></p>
-<p><div class="highlight"><pre><span></span><code><span class="n">printf</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\&#39;</span><span class="s">Hola Mundo</span><span class="se">\&#39;</span><span class="s">&quot;</span><span class="p">);</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="n">printf</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\&#39;</span><span class="s">Hola Mundo</span><span class="se">\&#39;</span><span class="s">&quot;</span><span class="p">);</span>
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>&#39;Hola Mundo&#39;
-</code></pre></div></p>
+</code></pre></div>
 <h2 id="especificadores-de-formato">Especificádores de formato</h2>
 <p>En <code>C</code> no se puede mandar a imprimir de manera directa una variable, se de usar un especificador de formato adecuado al tipo de variable que se quiere mandar a la salida.</p>
 <p>Se debe utilizar el símbolo de <code>%</code> seguido de la letra que le corresponde al tipo de variable:</p>

@@ -7,7 +7,7 @@
    viewBox="0 0 757.82932 197.52084"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
    sodipodi:docname="for_structure.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -23,17 +23,19 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:zoom="0.17165543"
-     inkscape:cx="1715.6463"
-     inkscape:cy="352.45026"
-     inkscape:window-width="1280"
-     inkscape:window-height="738"
+     inkscape:zoom="0.47129447"
+     inkscape:cx="948.45161"
+     inkscape:cy="140.03983"
+     inkscape:window-width="1024"
+     inkscape:window-height="742"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g50009"
      units="px"
-     width="2241.844px" />
+     width="2241.844px"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs2">
     <inkscape:path-effect
@@ -201,7 +203,7 @@
    style="fill:#ff6600"
    id="tspan43381">inicio </tspan><tspan
    style="font-weight:bold"
-   id="tspan40775">;</tspan> compración <tspan
+   id="tspan40775">;</tspan> comparación <tspan
    style="font-weight:bold"
    id="tspan39531">;</tspan> </tspan><tspan
    id="tspan37789"
@@ -350,7 +352,8 @@
          id="path49632"
          inkscape:path-effect="#path-effect49634"
          inkscape:original-d="m 560.61453,148.72911 c -22.7495,2.52602 -25.67175,5.36698 -48.42228,7.89254"
-         sodipodi:nodetypes="cc" />
+         sodipodi:nodetypes="cc"
+         transform="translate(16.933338)" />
       <path
          style="fill:none;fill-opacity:1;stroke:#800000;stroke-width:0.325577px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
          d="m 375.47665,84.418793 c -11.42831,2.756885 -22.31325,7.747782 -31.86,14.608264 -15.63482,11.235483 -27.55971,27.547043 -33.52223,45.853663"
@@ -367,8 +370,8 @@
       <ellipse
          style="fill:#aa4400;fill-opacity:0.277551;stroke:#803300;stroke-width:0.264999"
          id="path1365"
-         cx="507.66537"
-         cy="158.06255"
+         cx="513.48627"
+         cy="156.47507"
          rx="11.367552"
          ry="9.9225245" />
       <ellipse

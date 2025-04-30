@@ -6,7 +6,6 @@ Si deseas conocer la teoría básica de ciclos, ve a la documentación de [algor
 
 ![for](./assets/for_structure.png)
 
-
 ## Ejemplos
 
 - Imprimir 5 veces la palabra "Hola"
@@ -15,26 +14,26 @@ Si deseas conocer la teoría básica de ciclos, ve a la documentación de [algor
 #include <stdio.h>
 
 int main(void){
-    
+
     for (int i = 0; i < 5; i++){
         printf("Hola\n");
     }
-    
+
     return 0;
 }
 ```
 
-- Imprimir del 0 al 5
+- Imprimir del 1 al 5
 
 ```c
 #include <stdio.h>
 
 int main(void){
-    
+
     for (int i = 1; i <= 5; i++){
         printf("%d\n",i);
     }
-    
+
     return 0;
 }
 ```
@@ -106,7 +105,7 @@ int main(void){
 #include <stdio.h>
 
 int main(){
-    
+
     float suma = 0.0;
 
     for(int n = 0; n < 3; n++) {
@@ -129,6 +128,6 @@ int main(){
 - Realizar una calculadora aritmética básica, es decir, que tenga suma, resta, multiplicación y division; todas estas opciones en el menú. También agregar la opción de salir. Cuando el usuario elija alguna operación, se le solicitaran los datos que se necesitan, al entregar el resultado, vuelve a mostrar el menu. El programa termina hasta que el usuario elije la opción de salir. Si da una opción que no existe, dar el mensaje "Opción no existente" y vuelve a mostrar el menu.
 - Imprimir la tabla de multiplicar que el usuario elija, del 1 al 10; es decir, si el usuario desea la tabla del 8, debe salir por pantalla ==8x1=8, 8x2=16, ...==
 - Calcular el promedio final, solicita al usuario sus calificaciones parciales una a una, y al final da el mensaje "Aprobado", en caso que haya pasado arriba de 6 y "Estas en repite" si es menor.
--  Promedio de 3 parciales (con un ciclo), y si saco entre 0 a menor que 6, indicar que no paso, y se va a recursamiento, si saco entre 6 a 10, indicar que paso. Si da un calificación que no existe, indicar que no existe
+- Promedio de 3 parciales (con un ciclo), y si saco entre 0 a menor que 6, indicar que no paso, y se va a recursamiento, si saco entre 6 a 10, indicar que paso. Si da un calificación que no existe, indicar que no existe
 - Realizar una calculadora de resistencia serie, el usuario ira introduciendo los valores uno a uno, la solicitud es infinita, hasta que le usuario decide cuando terminar, la opción de salir es -1, después de terminar imprime el resultado
 - Realizar una calculadora de resistencia serie y paralelo, el usuario cual elije la opción, el usuario ira introduciendo los valores uno a uno, la solicitud es infinita, hasta que le usuario decide cuando terminar, la opción de salir es -1. después de terminar imprime el resultado

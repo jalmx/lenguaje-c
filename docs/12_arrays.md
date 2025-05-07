@@ -136,6 +136,10 @@ El valor en la posicion 4 es : 7
 
 ## Arrays inicializados con datos
 
+![arr](assets/declarando_array_lleno_1.png)
+
+![arr](assets/declarando_array_lleno_2.png)
+
 ## Arrays multidimensionales
 
 ## Ejercicios

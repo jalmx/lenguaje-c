@@ -119,6 +119,35 @@ int main(){
 
     return 0;
 }
+```
+
+- Hacer un programa para calcular un promedio, la cantidad de datos se le preguntara al usuario, después, hará la solicitud de todos esos datos y al final dar el valor del promedio
+
+```c
+#include <stdio.h>
+
+int main(int argc, char *argv[]) {
+    int total = 0;
+    int suma = 0;
+    printf("CALCULADORA DE MEDIA\n");
+    printf("Dame cuantos valores tienes: ");
+    scanf("%d", &total);
+
+    int contador = 1;
+    for(;;){
+        int dato = 0;
+        printf("Dame el dato %d: ", contador);
+        scanf("%d", &dato);
+        suma += dato; // suma = suma + dato
+        if(contador >= total){
+            break;
+        }
+        contador++;
+    }
+    float promedio = suma / (float) total;
+    printf("El promedio es %.2f\n", promedio);
+    return 0;
+}
 
 ```
 

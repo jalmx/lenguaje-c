@@ -45,12 +45,12 @@ int main(){
 
 Resultado:
 
-```
-La suma es 7 
-La resta es 1 
-La multiplicación es 12 
-La división es 1.333333 
-El residuo es 1 
+```text
+La suma es 7
+La resta es 1
+La multiplicación es 12
+La división es 1.333333
+El residuo es 1
 ```
 
 ## Operador unitario (-)
@@ -67,7 +67,7 @@ printf("valor negativo: %d\n", inverso);
 
 Resultado:
 
-```
+```text
 valor: 4
 valor negativo: -4
 ```
@@ -140,7 +140,7 @@ int main()
     float seno = sin(45);
     float tangente = tan(45);
 
-    
+
     printf("2 al cubo es: %d \n", potencia);
     printf("la raiz de 25 es: %d \n", raiz);
     printf("redondeo arriaba de 25.3 es: %d \n", redondeoArriba);
@@ -170,7 +170,7 @@ int main(void){
 
     float area = side * side;
     printf("El area es %f u2\n", area);
-    
+
     return 0;
 }
 ```
@@ -178,3 +178,11 @@ int main(void){
 ## Ejercicios con operadores aritméticos
 
 - **calculadora del circulo**. Imprimir calcular el perímetro y área. Los datos están en memoria.
+- **calculadora del rectángulo**. Imprimir calcular el perímetro y área. Los datos están en memoria.
+- **calculadora del triangulo**. Imprimir calcular el perímetro y área. Los datos están en memoria.
+
+## Operador de incremento y decremento
+
+El Operador de incremento y decremento son operadores unarios que agregan o sustraen uno de sus operandos, respectivamente. Es normal tener 2 versiones (pre- y post-) de cada operador con semántica ligeramente diferente. El operador de incremento es escrito como `++` y el de decremento como `--`.
+
+> en progreso

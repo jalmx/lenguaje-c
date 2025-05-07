@@ -11,7 +11,7 @@ El primer ciclo que vamos a conocer se llama `while` (*mientras*). Este ciclo, p
 ```c
 while(comparacion_a_true){ //inicia bloque while
 
-    // bloque de código que se repite 
+    // bloque de código que se repite
     // hasta que la companion no se cumpla
 
 } //termina bloque while
@@ -25,16 +25,16 @@ while(comparacion_a_true){ //inicia bloque while
 #include <stdio.h>
 
 int main(void){
-    
+
     char* mensaje = "Hola";
 
     int contador = 0;
 
     while (contador < 5){
         printf("%s\n", mensaje);
-        contador = contador + 1;     
+        contador = contador + 1;
     }
-    
+
     return 0;
 }
 
@@ -46,14 +46,14 @@ int main(void){
 #include <stdio.h>
 
 int main(void){
-    
+
     int contador = 0;
 
     while (contador <= 5){
         printf("%d\n", contador);
         contador = contador + 1;
     }
-    
+
     return 0;
 }
 ```
@@ -127,7 +127,7 @@ int main(void){
 #include <stdio.h>
 
 int main(){
-    
+
     int n = 0;
     float suma = 0.0;
     while(n < 3){
@@ -143,6 +143,47 @@ int main(){
     return 0;
 }
 
+```
+
+## Juego: Adivina el numero
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+
+    int maximo = 20;
+    int contadorFalla =0;
+    int fallaMaxima = 3;
+    srand( time(NULL));
+    int numeroRandom = rand() % (maximo + 1);
+    printf("BIENVENIDO AL PARAISO\n");
+    printf("----> %d\n", numeroRandom);
+    printf("Descubre el numero oculto  >:)\n");
+
+    while(1){
+     int numeroUsuario = 0;
+     printf("Dame un numero de entre 0 al %d: ", maximo);
+     scanf("%d", &numeroUsuario);
+
+     if(numeroRandom == numeroUsuario){
+      printf("Es correcto, haz ganado!!!!!!\n");
+      break;
+     }else if(numeroRandom > numeroUsuario){
+      printf("El numero es mayor!!!!!!\n");
+     }else{
+      printf("El numero es menor!!!!!!\n");
+     }
+     contadorFalla++;
+     if(contadorFalla == fallaMaxima){
+      printf("GAME OVER!!! You're a looser >:) ");
+      break;
+     }
+    }
+    return 0;
+}
 ```
 
 ## Ejercicios (*while*)

@@ -12,13 +12,13 @@
         <meta name="author" content="Alejandro Leyva">
       
       
-        <link rel="canonical" href="https://www.alejandro-leyva.com/leguaje-c/01_variables/">
+        <link rel="canonical" href="https://www.alejandro-leyva.com/leguaje-c/14_funciones/">
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../13_strings/">
       
       
-        <link rel="next" href="../02_tipos_datos/">
+        <link rel="next" href="../practicas/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>Variables - Programa Tarjetas Electrónicas - Lenguaje C</title>
+        <title>14 funciones - Programa Tarjetas Electrónicas - Lenguaje C</title>
       
     
     
@@ -77,11 +77,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#variables" class="md-skip">
-          Saltar a contenido
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -118,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Variables
+              14 funciones
             
           </span>
         </div>
@@ -278,30 +273,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Variables
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../01_variables/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -310,53 +285,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Tabla de contenidos
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#que-es-una-variable" class="md-nav__link">
-    <span class="md-ellipsis">
-      ¿Qué es una variable?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#que-es-declarar-una-variable" class="md-nav__link">
-    <span class="md-ellipsis">
-      Qué es declarar una variable?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#como-nombrar-una-variable" class="md-nav__link">
-    <span class="md-ellipsis">
-      ¿Cómo nombrar una variable?
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -605,10 +533,17 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../14_funciones/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -617,6 +552,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -678,43 +614,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Tabla de contenidos
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#que-es-una-variable" class="md-nav__link">
-    <span class="md-ellipsis">
-      ¿Qué es una variable?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#que-es-declarar-una-variable" class="md-nav__link">
-    <span class="md-ellipsis">
-      Qué es declarar una variable?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#como-nombrar-una-variable" class="md-nav__link">
-    <span class="md-ellipsis">
-      ¿Cómo nombrar una variable?
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -732,46 +631,7 @@
   
 
 
-<h1 id="variables">Variables</h1>
-<h2 id="que-es-una-variable">¿Qué es una variable?</h2>
-<p>Una variable desde el punto de vista computacional, es un espacio en memoria con un nombre, es decir, un espacio determinado al momento de declarar la variable, se indica su tipo y cada tipo tiene cierto espacio en memoria. </p>
-<blockquote>
-<p>Es un espacio virtual el cual quedará registrado en la memoria; el cual se podrá llamar en diferentes puntos de la programación cuantas veces la necesitemos. A este espacio se le da un nombre que nos indique para qué ha sido creada. Las variables pueden tomar cualquier tipo de valor</p>
-</blockquote>
-<div class="admonition example">
-<p class="admonition-title">Variables</p>
-<div class="highlight"><pre><span></span><code><span class="kt">int</span><span class="w"> </span><span class="n">edad</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">20</span><span class="p">;</span><span class="w"> </span><span class="c1">//Variable que almacena un numero, la edad</span>
-<span class="kt">float</span><span class="w"> </span><span class="n">altura</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1.7</span><span class="p">;</span>
-<span class="kt">char</span><span class="w"> </span><span class="n">letra</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="sc">&#39;a&#39;</span><span class="p">;</span>
-<span class="kt">char</span><span class="o">*</span><span class="w"> </span><span class="n">nombre</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Aprendiendo programación&quot;</span><span class="p">;</span><span class="w"> </span><span class="c1">//Variable que almacena una frase (String)</span>
-<span class="kt">bool</span><span class="w"> </span><span class="n">isAlive</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">true</span><span class="w"> </span><span class="c1">//Variable que almacena un valor booleano</span>
-</code></pre></div>
-</div>
-<h2 id="que-es-declarar-una-variable">Qué es declarar una variable?</h2>
-<p><strong>La declaración de una variable es reservar un espacio en memoria de la computadora</strong>.
-La computadora tiene cierta cantidad de memoria, la cual es repartida entre todos los programas y los propios procesos para ejecutar el sistema operativo. Cuando ejecutamos un programa, éste comienza reservar memoria para poder trabajar.
-Entonces, al declarar variables estamos consumiendo memoria, la cual vamos a utilizar en algún momento, si estamos reservando el espacio significa que en algún otro momento necesitamos recuperar lo que hemos guardado para realizar otra operación, de lo contrario no necesitamos reservar memoria si el valor solo será utilizado una única vez.</p>
-<h2 id="como-nombrar-una-variable">¿Cómo nombrar una variable?</h2>
-<p>Dentro de la programación existen <strong>buenas practicas</strong> para declarar variables. Estas reglas se definen a lo largo del tiempo que ha evolucionado. Estas son las reglas genéricas para (casi) todos lenguajes. </p>
-<ul>
-<li>Deben comenzar en minúscula</li>
-<li>Se escriben en minúsculas, las variantes se dan cuando son más de dos palabras.</li>
-<li>Solo puede contener números después de la primera letra.</li>
-<li>Sensibles a minúsculas y mayúsculas; es decir, si declaro una variable llamada <code>variable1</code> y otra llamada <code>Variable1</code>, para la computadora son variables o espacios de memoria distintos, aun que suenen igual, con el solo hecho de cambiar una letra, ya estamos hablando de una variable distinta.</li>
-<li>No pueden contener espacios entre letras o palabras</li>
-<li>No puede comenzar con números o símbolos</li>
-<li>No puede contener caracteres especiales, todos son caracteres especiales menos el abecedario ingles. Ejemplo: <code>!"·%&amp;-+/()=?¿...</code>, los únicos símbolos permitidos son <code>$</code> y <code>_</code>.</li>
-<li><strong>El nombre debe ser descriptivo</strong>; es decir, con solo leerlo podemos deducir qué hace o para qué fue declarada</li>
-<li><em>(Regla especial):</em> Todo de escribe en ingles.</li>
-<li><em>(Regla especial)</em>: Si se desea escribir una variable combinando dos palabras o más, se hace comenzando la siguiente palabra con mayuscula y todo pegado, a esto se le conoce como la convención <code>CamelCase</code>.</li>
-<li>Ejemplos:<ul>
-<li><code>valor</code></li>
-<li><code>valor1</code></li>
-<li><code>valorUno</code></li>
-<li><code>variableNueva</code></li>
-</ul>
-</li>
-</ul>
+  <h1>14 funciones</h1>
 
 
 
@@ -779,8 +639,7 @@ Entonces, al declarar variables estamos consumiendo memoria, la cual vamos a uti
 
 
 
-  
-  
+
 
 
 
@@ -804,7 +663,7 @@ Entonces, al declarar variables estamos consumiendo memoria, la cual vamos a uti
       <nav class="md-footer__inner md-grid" aria-label="Pie" >
         
           
-          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Anterior: Introducción al Lenguaje C">
+          <a href="../13_strings/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: 13 strings">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -814,20 +673,20 @@ Entonces, al declarar variables estamos consumiendo memoria, la cual vamos a uti
                 Anterior
               </span>
               <div class="md-ellipsis">
-                Introducción al Lenguaje C
+                13 strings
               </div>
             </div>
           </a>
         
         
           
-          <a href="../02_tipos_datos/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Tipos de datos">
+          <a href="../practicas/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Prácticas en C">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Siguiente
               </span>
               <div class="md-ellipsis">
-                Tipos de datos
+                Prácticas en C
               </div>
             </div>
             <div class="md-footer__button md-icon">

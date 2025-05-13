@@ -41,9 +41,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          poetry install --no-interaction --no-ansi --only main,docs
+          poetry install --no-interaction --no-ansi
           # Instalar dependencias adicionales para las extensiones
-          poetry add pymdown-extensions python-markdown-math pygments --group docs
+          poetry add pymdown-extensions python-markdown-math pygments
 
       - name: Build documentation
         run: |

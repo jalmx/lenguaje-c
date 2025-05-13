@@ -140,11 +140,48 @@ El valor en la posicion 4 es : 7
 
 ![arr](assets/declarando_array_lleno_2.png)
 
-## Arrays multidimensionales
+## Ejemplos
 
-## Ejercicios
-
-- Calculo de la media, la desviación estándar y varianza
+- Declarar un array de 10 espacios y llenarlo del 1 al 10. Después, imprimir todos los valores.
 
 ```c
 ```
+
+- Declarar un array de 7 espacios y llenarlo con *números al azar*. Después, imprimir todos los valores.
+
+```c
+```
+
+- Leer 5 números enteros almacenarlos en un array. Imprimirlos en orden inverso.
+
+```c
+```
+
+- Llenar un array a partir del algún numero que elija el usuario, almacenarlo, crear otro array y llenarlo con los mismo valores al doble e imprimir la sumatoria de los números que están al doble.
+
+```c
+```
+
+- Calculo de la media, la desviación estándar y varianza, de una serie de datos que serán dados por el unario, de igual manera, la cantidad de datos se le solicitan al usuario.
+
+```c
+```
+
+- Crear un array con 5 espacios, llenarlo con valores al azar y crear una gráfica de barras
+
+```c
+```
+
+- Llenar un array de 10 posiciones con números al azar; después, se deben cambiar los números pares por un cero.
+
+```c
+```
+
+## Ejercicios
+
+- Contar cuántos elementos negativos hay en un array de 10 números. De un array con datos por default.
+- Se debe llenar un array con 5 valores impares, solicitar al usuario valores, pero solo los valores impares se deben almacenar, hasta que se haya llenado el array, se termina de solicitar valores e imprime los valores guardados.
+- Declarar un array de 8 espacios y llenarlo a partir de un valor dado por el usuario; es decir, si dan el valor de 3, comienza llenando los espacios con 3, 4, 5, ... hasta terminar. Después, imprimir el primer y ultimo valor.
+- Calculo de la media, la desviación estándar, varianza y la moda, de 10 datos. Todos los datos se le solicitan al usuario. Crear una gráfica de barras con los datos
+- Encontrar el valor máximo y mínimo de un array de 6 números ingresados por el usuario e indicar cual es la diferencia entre esos valores.
+- Leer dos arrays de 5 enteros cada uno y mostrar la suma de cada elemento en su posición homologa; es decir, sumar del array_1 de la posición 0 con el valor del array_2 de la posición 0, asi sucesivamente.

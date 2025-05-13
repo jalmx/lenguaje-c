@@ -1,23 +1,67 @@
-name: pages
+name: Deploy Documentation
+
 on:
   push:
     branches:
       - master
+    paths:
+      - 'docs/**'
+      - 'mkdocs.yml'
+      - 'pyproject.toml'
+      - 'poetry.lock'
+
 jobs:
-  build:
-    name: Deploy docs to GitHub Pages
+  deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Build
-        uses: Tiryoh/actions-mkdocs@v0
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          mkdocs_version: 'latest' # option
-          requirements: 'requirements.txt' # option
-          configfile: 'mkdocs.yml' # option
-      - name: Deploy
+          fetch-depth: 0  # Necesario para plugins de git
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'  # Versión especificada en tu pyproject.toml
+
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+        with:
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+          installer-parallel: true
+          version: "1.8.2"  # Versión estable reciente
+
+      - name: Cache Poetry dependencies
+        uses: actions/cache@v3
+        with:
+          path: |
+            .venv
+            ~/.cache/pypoetry
+          key: poetry-${{ runner.os }}-${{ hashFiles('pyproject.toml', 'poetry.lock') }}
+          restore-keys: |
+            poetry-${{ runner.os }}-
+
+      - name: Install dependencies
+        run: |
+          poetry install --no-interaction --no-ansi --only main,docs
+          # Instalar dependencias adicionales para las extensiones
+          poetry add pymdown-extensions python-markdown-math pygments --group docs
+
+      - name: Build documentation
+        run: |
+          poetry run mkdocs build --strict --verbose
+          # Verificar que se generaron los archivos
+          ls -lh site/
+
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
+          keep_files: false
+          force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'

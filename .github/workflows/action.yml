@@ -1,41 +1,23 @@
-name: Deploy MkDocs to GitHub Pages
-
+name: pages
 on:
   push:
     branches:
       - master
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 jobs:
-  deploy:
+  build:
+    name: Deploy docs to GitHub Pages
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Build
+        uses: Tiryoh/actions-mkdocs@v0
         with:
-          python-version: '3.11'  # O la versión que uses
-
-      - name: Install Poetry
-        run: |
-          curl -sSL https://install.python-poetry.org | python3 -
-          echo "$HOME/.local/bin" >> $GITHUB_PATH
-
-      - name: Install dependencies with Poetry
-        run: poetry install --no-root
-
-      - name: Build MkDocs site
-        run: poetry run mkdocs build --strict
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+          mkdocs_version: 'latest' # option
+          requirements: 'requirements.txt' # option
+          configfile: 'mkdocs.yml' # option
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site

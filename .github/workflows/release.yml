@@ -3,8 +3,7 @@ name: Deploy MkDocs to GitHub Pages
 on:
   push:
     branches:
-      - main  # o la rama que uses para lanzar la documentación
-  workflow_dispatch:
+      - main
 
 permissions:
   contents: read

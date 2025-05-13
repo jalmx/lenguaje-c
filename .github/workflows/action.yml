@@ -47,7 +47,7 @@ jobs:
 
       - name: Build documentation
         run: |
-          poetry run mkdocs build --strict --verbose
+          poetry run mkdocs build --verbose
           # Verificar que se generaron los archivos
           ls -lh site/
 

@@ -1,4 +1,4 @@
-# Prácticas en C básicos
+# Prácticas en C
 
 ## Arrays
 
@@ -11,3 +11,5 @@
 7. Inicializar un array con valores predefinidos `{3, 5, 7, 9, 11}` y mostrarlos
 8. Leer 5 números reales (float) desde teclado y calcular su promedio.
 9. Crear un array con 10 valores al azar, solicitar un valor al usuario e indicar cuantos son mayores y menores que el valor indicado por el usuario.
+
+## Funciones

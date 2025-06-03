@@ -289,10 +289,9 @@ En todos los ejercicios aplicar la forma de prototipo de funciones, posterior a 
 
 - Realizar las funciones para calcular suma y resta, recibiendo 2 valores
 - Realizar las funciones para calcular area y perímetro de figuras geométricas
-  - circulo
-  - rectángulo
-  - cuadrado
+    - circulo
+    - rectángulo
+    - cuadrado
 - Realizar función que reciba 3 números y retorne el numero mas chico.
 - Realizar función para calcular la **resistencia en seria**, se pasa un array con los datos y el largo del array, la función retorna el resultado
 - Realizar función para calcular la **resistencia en paralelo**, se pasa un array con los datos y el largo del array, la función retorna el resultado
--

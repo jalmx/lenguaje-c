@@ -12,4 +12,20 @@
 8. Leer 5 números reales (float) desde teclado y calcular su promedio.
 9. Crear un array con 10 valores al azar, solicitar un valor al usuario e indicar cuantos son mayores y menores que el valor indicado por el usuario.
 
-## Funciones
+## Funciones básicas
+
+En todos los ejercicios aplicar la forma de prototipo de funciones, posterior a ello, tendrá la función `main()` en donde se pone a prueba el funcionamiento de las funciones creadas.
+
+1. Crear un programa en C, con 4 funciones, sumar, restar, dividir y multiplicar, cada funsción recibe 2 argumentos de tipo `float`.
+2. Crear un programa en C, con 3 funciones para calcular la 2da Ley de Newton.
+   1. Masa
+   2. Aceleración
+   3. Fuerza
+3. Crear un programa en C, para estadística, las funciones que se necesitan son:
+   1. Media
+   2. Desviación estándar
+   3. Varianza
+   4. Meda + 1 desviación estándar
+   5. Media - una desviación estándar
+4. Cálculo de la masa molar de un gas ideal. Escribir una función que calcule la masa molar de un gas ideal, utilizando la fórmula `M = (P * V) / (R * T)`, donde M es la masa molar, P es la presión, V es el volumen, R es la constante de los gases y T es la temperatura en Kelvin.
+5. Cálculo de la velocidad de un objeto que se desplaza con una aceleración constante. Escribir una función que calcule la velocidad de un objeto que se desplaza con una aceleración constante, utilizando la fórmula `v = v0 + at`, donde v es la velocidad final, v0 es la velocidad inicial, a es la aceleración y t es el tiempo.

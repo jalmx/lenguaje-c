@@ -16,7 +16,7 @@
 
 En todos los ejercicios aplicar la forma de prototipo de funciones, posterior a ello, tendrá la función `main()` en donde se pone a prueba el funcionamiento de las funciones creadas.
 
-1. Crear un programa en C, con 4 funciones, sumar, restar, dividir y multiplicar, cada funsción recibe 2 argumentos de tipo `float`.
+1. Crear un programa en C, con 4 funciones, sumar, restar, dividir y multiplicar, cada función recibe 2 argumentos de tipo `float`.
 2. Crear un programa en C, con 3 funciones para calcular la 2da Ley de Newton.
       1. Masa
       2. Aceleración

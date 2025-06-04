@@ -145,16 +145,79 @@ El valor en la posicion 4 es : 7
 - Declarar un array de 10 espacios y llenarlo del 1 al 10. Después, imprimir todos los valores.
 
 ```c
+#include <stdio.h>
+
+#define SIZE 10
+
+int main() {
+
+ int numeros[SIZE]; //declaro array de 10 espacios
+
+ for(int i = 0; i < SIZE; i++){ //llenado el array del 1 al 10
+  numeros[i] = i + 1;
+ }
+
+ for(int index = 0; index < SIZE; index++){ //imprimiendo todo el array
+  printf("Posicion [%d] - valor: %d\n", index, numeros[index]);
+ }
+
+ return 0;
+}
 ```
 
 - Declarar un array de 7 espacios y llenarlo con *números al azar*. Después, imprimir todos los valores.
 
 ```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#define SIZE 7
+#define MAX 100  //el numero máximo al azar
+
+int main() {
+ srand(time(NULL));
+ int numeros[SIZE]; //declaro array de 10 espacios
+
+ for(int i = 0; i < SIZE; i++){ //llenado el array con números al azar
+  int numeroRandom = rand() % (MAX + 1);
+  numeros[i] = numeroRandom ;
+ }
+
+ for(int index = 0; index < SIZE; index++){ //imprimiendo todo el array
+  printf("Posicion [%d] - valor: %d\n", index, numeros[index]);
+ }
+
+ return 0;
+}
 ```
 
 - Leer 5 números enteros almacenarlos en un array. Imprimirlos en orden inverso.
 
 ```c
+#include <stdio.h>
+
+#define SIZE 5
+
+int main() {
+
+ int numeros[SIZE]; //declaro array de 10 espacios
+
+ for(int i = 0; i < SIZE; i++){ //llenado el array con numeros al azar
+    int numero = 0;
+    printf("[%d]Da un numero entero: ", i+1);
+    scanf("%d", &numero);
+    numeros[i] = numero;
+ }
+
+ printf("++++++++++++++++++++++++\n");
+
+ for(int index = SIZE-1; index >= 0; index--){ //imprimiendo todo el array
+    printf("Posicion [%d] - valor: %d\n", index, numeros[index]);
+ }
+
+ return 0;
+}
 ```
 
 - Llenar un array a partir del algún numero que elija el usuario, almacenarlo, crear otro array y llenarlo con los mismo valores al doble e imprimir la sumatoria de los números que están al doble.

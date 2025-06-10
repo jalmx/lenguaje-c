@@ -263,7 +263,9 @@ int main() {
 - Calculo de la media, la desviación estándar y varianza, de una serie de datos que serán dados por el usuario, de igual manera, la cantidad de datos se le solicitan al usuario.
 
 $$media = \bar{x}= \frac{\sum {x_i}}{n}$$
+
 $$desviación = \sigma =\sqrt{\frac{\sum {(x_i - \bar{x} )^2}}{n}}$$
+
 $$varianza = s^2 =\frac{\sum {(x_i - \bar{x} )^2}}{n}$$
 
 ```c

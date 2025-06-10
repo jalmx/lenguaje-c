@@ -203,7 +203,7 @@ int main() {
 
  int numeros[SIZE]; //declaro array de 10 espacios
 
- for(int i = 0; i < SIZE; i++){ //llenado el array con numeros al azar
+ for(int i = 0; i < SIZE; i++){ //llenado el array con números al azar
     int numero = 0;
     printf("[%d]Da un numero entero: ", i+1);
     scanf("%d", &numero);
@@ -220,9 +220,44 @@ int main() {
 }
 ```
 
-- Llenar un array a partir del algún numero que elija el usuario, almacenarlo, crear otro array y llenarlo con los mismo valores al doble e imprimir la sumatoria de los números que están al doble.
+- Llenar un array a partir un número que elija el usuario, después solicitar números al usuario para llenar el array, crear otro array y llenarlo con los mismo valores al doble e imprimir la sumatoria de los números que están al doble.
 
 ```c
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+
+ int size = 0;
+ long sumDoble = 0;
+ long sum = 0;
+
+ printf("Da el tamanio del array que quieres crear: ");
+ scanf("%d", &size);
+
+ int datos[size];
+ int datosDobles[size];
+
+ for(int i = 0; i < size; i++){
+  printf("Da el datos %d: ", i+1);
+  scanf("%d", &datos[i]);
+ }
+
+ for(int i = 0; i < size; i++){
+  datosDobles[i] = pow( datos[i], 2 );
+ }
+
+ printf("Los datos al doble:\n");
+ for(int i = 0; i < size; i++){
+  printf("%d\t", datosDobles[i]);
+  sum += datos[i];
+  sumDoble += datosDobles[i];
+ }
+ printf("\nLa suma basica: %ld\n", sum);
+ printf("La suma basica al doble: %ld\n", sumDoble);
+
+ return 0;
+}
 ```
 
 - Calculo de la media, la desviación estándar y varianza, de una serie de datos que serán dados por el unario, de igual manera, la cantidad de datos se le solicitan al usuario.

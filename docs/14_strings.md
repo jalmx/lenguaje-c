@@ -1,1 +1,0 @@
-# Strings (Cadena de caracteres)

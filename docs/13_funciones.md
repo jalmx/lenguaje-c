@@ -5,7 +5,7 @@ Las funciones se pueden a llamar las veces que sean necesarias y ellas pueden ex
 
 Tenemos varias formas para crear una función, que devuelven algún valor, que no retornen nada, que puedan recibir argumentos o ninguno, siempre todo esto esta en función de lo que vayamos a realizar.
 
-> Aquí solo verán funciones con argumentos por valor, NO POR REGENCIA
+> Aquí solo verán funciones con argumentos por valor, NO POR REFERENCIA
 
 ## Tipos de retorno de una función
 

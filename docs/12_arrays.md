@@ -274,47 +274,84 @@ $$varianza = s^2 =\frac{\sum {(x_i - \bar{x} )^2}}{n}$$
 
 int main(int argc, char *argv[]) {
 
-	int size = 0;
-	long sum = 0;
+    int size = 0;
+    long sum = 0;
 
-	printf("Cuantos datos tienes: ");
-	scanf("%d", &size);
+    printf("Cuantos datos tienes: ");
+    scanf("%d", &size);
 
-	int datos[size];
+    int datos[size];
 
-	for(int i=0; i <size; i++){
-		int dato = 0;
-		printf("Da el dato %d: ", i + 1);
-		scanf("%d", &dato);
-		sum+= dato;
-		datos[i] = dato;
-	}
+    for(int i=0; i <size; i++){
+        int dato = 0;
+        printf("Da el dato %d: ", i + 1);
+        scanf("%d", &dato);
+        sum+= dato;
+        datos[i] = dato;
+    }
 
-	float media = sum / (float)size;
-	float varianza = 0;
-	float sumVarianza = 0;
+    float media = sum / (float)size;
+    float varianza = 0;
+    float sumVarianza = 0;
 
-	for(int i= 0; i < size ; i++){
-		sumVarianza = pow(datos[i] - media , 2);
-	}
+    for(int i= 0; i < size ; i++){
+        sumVarianza = pow(datos[i] - media , 2);
+    }
 
-	varianza = sumVarianza / size;
+    varianza = sumVarianza / size;
 
-	float desviacionEstandar = sqrt(varianza);
+    float desviacionEstandar = sqrt(varianza);
 
-	printf("====================================\n");
-	printf("La media es %.2f\n", media);
-	printf("La varianza es %.2f\n", varianza);
-	printf("La desviacion Estandar es %.2f\n", desviacionEstandar);
-	printf("====================================\n");
+    printf("====================================\n");
+    printf("La media es %.2f\n", media);
+    printf("La varianza es %.2f\n", varianza);
+    printf("La desviacion Estandar es %.2f\n", desviacionEstandar);
+    printf("====================================\n");
 
-	return 0;
+    return 0;
 }
 ```
 
 - Crear un array con 5 espacios, llenarlo con valores al azar y crear una gráfica de barras
 
+Ejemplo de salida
+
+```text
+valor 1 [4]  ****
+valor 2 [8]  ********
+valor 3 [1]  *
+valor 4 [10] **********
+valor 5 [4]  ****
+```
+
 ```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#define SIZE 5
+#define MAX 20  //el numero maximo al azar
+
+    int main() {
+    srand(time(NULL));
+    int datos[SIZE]; //declaro array de 10 espacios
+
+    for(int i = 0; i < SIZE; i++){ //llenado el array con numeros al azar
+        datos[i] = rand() % (MAX + 1);
+    }
+
+
+    for(int index = 0; index < SIZE; index++){ //imprimiendo todo el array
+        printf("valor %d [%d]\t:", index + 1, datos[index]);
+
+        for(int j =0; j < datos[index]; j++){
+            printf("*");
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
 ```
 
 - Llenar un array de 10 posiciones con números al azar; después, se deben cambiar los números pares por un cero.

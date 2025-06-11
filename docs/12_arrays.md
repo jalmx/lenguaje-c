@@ -357,6 +357,41 @@ valor 5 [2]: **
 - Llenar un array de 10 posiciones con números al azar; después, se deben cambiar los números pares por un cero.
 
 ```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#define SIZE 10
+#define MAX 100  //el numero máximo al azar
+
+int main() {
+    srand(time(NULL));
+    int datos[SIZE]; //declaro array de 10 espacios
+
+    for(int i = 0; i < SIZE; i++){ //llenado el array con números al azar
+        datos[i] = rand() % (MAX + 1);
+    }
+
+    for(int index = 0; index < SIZE; index++){ //imprimiendo todo el array
+        printf("valor %d: %d\n", index + 1, datos[index]);
+    }
+    printf("----------------------\n");
+
+    int par = 0;
+    for(int index = 0; index < SIZE; index++){ //imprimiendo todo el array
+
+        if(datos[index] % 2 == 0){
+            datos[index] = 0;
+            par++;
+            printf("->");
+        }
+        printf("valor %d: %d\n", index + 1, datos[index]);
+    }
+    printf("----------------------\n");
+    printf("Numeros pares: %d\n", par);
+
+    return 0;
+    }
 ```
 
 ## Ejercicios

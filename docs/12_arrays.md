@@ -317,11 +317,11 @@ int main(int argc, char *argv[]) {
 Ejemplo de salida
 
 ```text
-valor 1 [4]  ****
-valor 2 [8]  ********
-valor 3 [1]  *
-valor 4 [10] **********
-valor 5 [4]  ****
+valor 1 [5]: *****
+valor 2 [2]: **
+valor 3 [2]: **
+valor 4 [7]: *******
+valor 5 [2]: **
 ```
 
 ```c
@@ -330,19 +330,19 @@ valor 5 [4]  ****
 #include <time.h>
 
 #define SIZE 5
-#define MAX 20  //el numero maximo al azar
+#define MAX 20  //el numero máximo al azar
 
     int main() {
     srand(time(NULL));
     int datos[SIZE]; //declaro array de 10 espacios
 
-    for(int i = 0; i < SIZE; i++){ //llenado el array con numeros al azar
+    for(int i = 0; i < SIZE; i++){ //llenado el array con números al azar
         datos[i] = rand() % (MAX + 1);
     }
 
 
     for(int index = 0; index < SIZE; index++){ //imprimiendo todo el array
-        printf("valor %d [%d]\t:", index + 1, datos[index]);
+        printf("valor %d [%d]:\t", index + 1, datos[index]);
 
         for(int j =0; j < datos[index]; j++){
             printf("*");

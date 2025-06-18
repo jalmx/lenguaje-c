@@ -293,5 +293,5 @@ En todos los ejercicios aplicar la forma de prototipo de funciones, posterior a 
     - rectángulo
     - cuadrado
 - Realizar función que reciba 3 números y retorne el numero mas chico.
-- Realizar función para calcular la **resistencia en seria**, se pasa un array con los datos y el largo del array, la función retorna el resultado
+- Realizar función para calcular la **resistencia en serie**, se pasa un array con los datos y el largo del array, la función retorna el resultado
 - Realizar función para calcular la **resistencia en paralelo**, se pasa un array con los datos y el largo del array, la función retorna el resultado

@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="549.85931mm"
-   height="83.832954mm"
-   viewBox="0 0 549.85932 83.832952"
+   width="625.87598mm"
+   height="84.699585mm"
+   viewBox="0 0 625.87598 84.699583"
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
@@ -23,22 +23,23 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.33163034"
-     inkscape:cx="1488.1027"
-     inkscape:cy="268.3711"
+     inkscape:zoom="0.68265123"
+     inkscape:cx="1450.9605"
+     inkscape:cy="-70.31409"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="g1"
+     showguides="false" />
   <defs
      id="defs1" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(229.71168,-76.809639)">
+     transform="translate(229.71168,-75.943006)">
     <text
        xml:space="preserve"
        style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#008080;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
@@ -52,6 +53,17 @@
          y="125.70312">return</tspan></text>
     <text
        xml:space="preserve"
+       style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#333333;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+       x="-85.400444"
+       y="123.82298"
+       id="text1-54-5"><tspan
+         sodipodi:role="line"
+         id="tspan1-7-3"
+         style="font-weight:normal;fill:#333333;stroke:none;stroke-width:5.378"
+         x="-85.400444"
+         y="123.82298">;</tspan></text>
+    <text
+       xml:space="preserve"
        style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#008000;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
        x="-230.57039"
        y="92.022438"
@@ -61,17 +73,65 @@
          style="fill:#008000;stroke:none;stroke-width:5.378"
          x="-230.57039"
          y="92.022438">tipoRetorno</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#800080;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
-       x="93.745331"
-       y="91.641876"
-       id="text1-7"><tspan
-         sodipodi:role="line"
-         id="tspan1-8"
-         style="fill:#800080;stroke:none;stroke-width:5.378"
-         x="93.745331"
-         y="91.641876">arg1, arg2, ....</tspan></text>
+    <g
+       id="g1"
+       transform="translate(93.971867,-50.368921)">
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#008000;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="-6.0395346"
+         y="141.51497"
+         id="text1-2"><tspan
+           sodipodi:role="line"
+           id="tspan1-6"
+           style="fill:#008000;stroke:none;stroke-width:5.378"
+           x="-6.0395346"
+           y="141.51497">tipo</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#008000;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="106.82758"
+         y="141.51497"
+         id="text1-2-9"><tspan
+           sodipodi:role="line"
+           id="tspan1-6-2"
+           style="fill:#008000;stroke:none;stroke-width:5.378"
+           x="106.82758"
+           y="141.51497">tipo</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#800080;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="50.39402"
+         y="141.51497"
+         id="text1-7"><tspan
+           sodipodi:role="line"
+           id="tspan1-8"
+           style="fill:#800080;stroke:none;stroke-width:5.378"
+           x="50.39402"
+           y="141.51497">arg1,</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#800080;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="163.26114"
+         y="141.51497"
+         id="text1-7-9"><tspan
+           sodipodi:role="line"
+           id="tspan1-8-1"
+           style="fill:#800080;stroke:none;stroke-width:5.378"
+           x="163.26114"
+           y="141.51497">arg2,</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#800080;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="219.69469"
+         y="144.8327"
+         id="text1-7-9-9"><tspan
+           sodipodi:role="line"
+           id="tspan1-8-1-3"
+           style="fill:#800080;stroke:none;stroke-width:5.378"
+           x="219.69469"
+           y="144.8327">...</tspan></text>
+    </g>
     <text
        xml:space="preserve"
        style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#ff6600;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
@@ -99,27 +159,27 @@
     <text
        xml:space="preserve"
        style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#ff6600;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
-       x="289.0524"
-       y="93.203163"
+       x="365.06906"
+       y="93.734749"
        id="text5"><tspan
          sodipodi:role="line"
          id="tspan5"
          style="fill:#ff6600;stroke:none;stroke-width:5.378"
-         x="289.0524"
-         y="93.203163"><tspan
+         x="365.06906"
+         y="93.734749"><tspan
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.5161px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600"
            id="tspan4">)</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#ff00ff;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
-       x="310.25296"
-       y="93.203163"
+       x="386.26962"
+       y="93.734749"
        id="text5-5"><tspan
          sodipodi:role="line"
          id="tspan5-3"
          style="fill:#ff00ff;stroke:none;stroke-width:5.378"
-         x="310.25296"
-         y="93.203163">{</tspan></text>
+         x="386.26962"
+         y="93.734749">{</tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#ff00ff;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"

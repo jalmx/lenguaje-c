@@ -34,7 +34,7 @@ La estructura de una función se conforma inicialmente por el tipo de valor que 
 > Nota: Una función debe solo hacer una sola cosa, si esta haciendo dos, se debe dividir la función o repensar si esta construida de manera correcta.
 
 ```c
-tipoRetorno nombreFuncion(arg1, arg2, ...){
+tipoRetorno nombreFuncion(tipo arg1, tipo arg2, ...){
   return ; // depende si la función retorna algún valor
 }
 ```
@@ -106,7 +106,7 @@ valor: 4
 
 void saludo(void)
 {
-    printf("Hola :D !!!");
+    printf("Hola :D !!!\n");
 }
 
 int main(void)
@@ -288,7 +288,7 @@ float media(float numeros[], int largo)
 En todos los ejercicios aplicar la forma de prototipo de funciones, posterior a ello, tendrá la función `main()` en donde se pone a prueba el funcionamiento de las funciones creadas.
 
 - Realizar las funciones para calcular suma y resta, recibiendo 2 valores
-- Realizar las funciones para calcular area y perímetro de figuras geométricas
+- Realizar las funciones para calcular area y perímetro de figuras geométricas:
     - circulo
     - rectángulo
     - cuadrado

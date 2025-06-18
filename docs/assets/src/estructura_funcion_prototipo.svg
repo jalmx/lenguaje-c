@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="621.37115mm"
-   height="284.98108mm"
-   viewBox="0 0 621.37118 284.98107"
+   width="692.91461mm"
+   height="284.71857mm"
+   viewBox="0 0 692.91464 284.71856"
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.19926918"
-     inkscape:cx="-158.07763"
-     inkscape:cy="-291.06358"
+     inkscape:zoom="0.29031222"
+     inkscape:cx="1103.9838"
+     inkscape:cy="134.33813"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
      inkscape:window-x="0"
@@ -151,19 +151,19 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(229.59458,24.31873)">
+     transform="translate(229.59458,24.056238)">
     <g
        id="g6">
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.0132292px;fill:#ff00ff;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
-         x="288.63776"
-         y="-13.326183"
+         x="329.48273"
+         y="-13.063691"
          id="text5-5-6"><tspan
            sodipodi:role="line"
            style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff00ff;stroke:none;stroke-width:5.378"
-           x="288.63776"
-           y="-13.326183"
+           x="329.48273"
+           y="-13.063691"
            id="tspan18">prototipo</tspan></text>
       <path
          style="fill:none;stroke:#ff00ff;stroke-width:2.64583;stroke-opacity:1;marker-end:url(#Triangle)"
@@ -172,7 +172,7 @@
          inkscape:path-effect="#path-effect21"
          inkscape:original-d="M 126.77152,60.412267 C 73.834483,68.444096 32.514292,73.765322 -20.422774,81.797151"
          sodipodi:nodetypes="cc"
-         transform="translate(147.34833,-78.523857)" />
+         transform="translate(188.19328,-78.261365)" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.0132292px;fill:#ff00ff;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
@@ -195,41 +195,38 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.0132292px;fill:#ff00ff;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
-         x="282.68005"
-         y="136.93631"
+         x="354.22354"
+         y="129.98392"
          id="text5-5-6-4"><tspan
            sodipodi:role="line"
            style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff00ff;stroke:none;stroke-width:5.378"
-           x="282.68005"
-           y="136.93631"
+           x="354.22354"
+           y="129.98392"
            id="tspan18-7">definición de</tspan><tspan
            sodipodi:role="line"
            style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff00ff;stroke:none;stroke-width:5.378"
-           x="282.68005"
-           y="153.86963"
+           x="354.22354"
+           y="146.91724"
            id="tspan6">la función</tspan></text>
       <path
          style="fill:none;stroke:#ff00ff;stroke-width:2.64583;stroke-opacity:1;marker-end:url(#Triangle-1)"
-         d="M 126.77152,60.412267 -20.422774,81.797151"
+         d="M 126.77152,60.412267 -39.881534,81.002916"
          id="path21-8"
          inkscape:path-effect="#path-effect21-3"
-         inkscape:original-d="M 126.77152,60.412267 C 73.834483,68.444096 32.514292,73.765322 -20.422774,81.797151"
+         inkscape:original-d="M 126.77152,60.412267 C 73.834483,68.444096 13.055532,72.971087 -39.881534,81.002916"
          sodipodi:nodetypes="cc"
-         transform="translate(149.6183,79.467674)" />
-      <g
-         id="g1"
-         transform="translate(0,73.786968)">
-        <text
-           xml:space="preserve"
-           style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#008080;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         transform="translate(221.1618,72.515289)" />
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#008080;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="-181.91194"
+         y="202.14903"
+         id="text1-54"><tspan
+           sodipodi:role="line"
+           id="tspan1-7"
+           style="fill:#008080;stroke:none;stroke-width:5.378"
            x="-181.91194"
-           y="128.36206"
-           id="text1-54"><tspan
-             sodipodi:role="line"
-             id="tspan1-7"
-             style="fill:#008080;stroke:none;stroke-width:5.378"
-             x="-181.91194"
-             y="128.36206"><tspan
+           y="202.14903"><tspan
    style="fill:#000080"
    id="tspan27">int</tspan> <tspan
    style="fill:#008000"
@@ -244,102 +241,190 @@
    id="tspan23">valor2</tspan><tspan
    style="fill:#1a1a1a"
    id="tspan26">;</tspan></tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#008080;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#008080;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="-182.33162"
+         y="237.29362"
+         id="text1-54-4"><tspan
+           sodipodi:role="line"
+           id="tspan1-7-3"
+           style="fill:#008080;stroke:none;stroke-width:5.378"
            x="-182.33162"
-           y="163.50665"
-           id="text1-54-4"><tspan
-             sodipodi:role="line"
-             id="tspan1-7-3"
-             style="fill:#008080;stroke:none;stroke-width:5.378"
-             x="-182.33162"
-             y="163.50665">return <tspan
+           y="237.29362">return <tspan
    style="fill:#008000"
    id="tspan28">resultado</tspan><tspan
    style="fill:#222b00"
    id="tspan29">;</tspan></tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#008000;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#008000;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="-230.57039"
+         y="165.97597"
+         id="text1"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           style="fill:#008000;stroke:none;stroke-width:5.378"
            x="-230.57039"
-           y="94.228432"
-           id="text1"><tspan
-             sodipodi:role="line"
-             id="tspan1"
-             style="fill:#008000;stroke:none;stroke-width:5.378"
-             x="-230.57039"
-             y="94.228432">void</tspan></text>
+           y="165.97597">int</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#ff6600;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="-124.04883"
+         y="167.43967"
+         id="text1-5"><tspan
+           sodipodi:role="line"
+           id="tspan1-3"
+           style="fill:#ff6600;stroke:none;stroke-width:5.378"
+           x="-124.04883"
+           y="167.43967"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.5161px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600"
+             id="tspan2">(</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#0000ff;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="-189.15118"
+         y="165.78081"
+         id="text3"><tspan
+           sodipodi:role="line"
+           id="tspan3"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.5161px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0000ff;stroke:none;stroke-width:5.378"
+           x="-189.15118"
+           y="165.78081">sumar</tspan></text>
+      <g
+         id="g1"
+         transform="translate(69.965277,-1.5014413)">
         <text
            xml:space="preserve"
            style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#ff6600;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
-           x="-110.81966"
-           y="93.75029"
-           id="text1-5"><tspan
-             sodipodi:role="line"
-             id="tspan1-3"
-             style="fill:#ff6600;stroke:none;stroke-width:5.378"
-             x="-110.81966"
-             y="93.75029"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.5161px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600"
-               id="tspan2">(</tspan></tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#0000ff;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
-           x="-175.9222"
-           y="92.091415"
-           id="text3"><tspan
-             sodipodi:role="line"
-             id="tspan3"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.5161px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0000ff;stroke:none;stroke-width:5.378"
-             x="-175.9222"
-             y="92.091415">sumar</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#ff6600;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
-           x="79.678307"
-           y="93.75029"
+           x="66.449127"
+           y="167.43967"
            id="text5"><tspan
              sodipodi:role="line"
              id="tspan5"
              style="fill:#ff6600;stroke:none;stroke-width:5.378"
-             x="79.678307"
-             y="93.75029"><tspan
+             x="66.449127"
+             y="167.43967"><tspan
                style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.5161px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600"
                id="tspan4">)</tspan></tspan></text>
         <text
            xml:space="preserve"
            style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#ff00ff;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
-           x="97.440392"
-           y="93.75029"
+           x="84.211212"
+           y="167.43967"
            id="text5-5"><tspan
              sodipodi:role="line"
              id="tspan5-3"
              style="fill:#ff00ff;stroke:none;stroke-width:5.378"
-             x="97.440392"
-             y="93.75029">{</tspan></text>
+             x="84.211212"
+             y="167.43967">{</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#ff00ff;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="-228.41565"
+         y="258.51556"
+         id="text5-5-1"><tspan
+           sodipodi:role="line"
+           id="tspan5-3-2"
+           style="fill:#ff00ff;stroke:none;stroke-width:5.378"
+           x="-228.41565"
+           y="258.51556">}</tspan></text>
+      <g
+         id="g3"
+         transform="translate(-5.9464099,-155.6219)">
         <text
            xml:space="preserve"
-           style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#ff00ff;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
-           x="-228.41565"
-           y="184.72861"
-           id="text5-5-1"><tspan
+           style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#008000;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+           x="-107.54492"
+           y="166.81688"
+           id="text1-53"><tspan
              sodipodi:role="line"
-             id="tspan5-3-2"
-             style="fill:#ff00ff;stroke:none;stroke-width:5.378"
-             x="-228.41565"
-             y="184.72861">}</tspan></text>
+             id="tspan1-5"
+             style="fill:#008000;stroke:none;stroke-width:5.378"
+             x="-107.54492"
+             y="166.81688">int</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#008000;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+           x="20.207848"
+           y="166.81688"
+           id="text1-53-0"><tspan
+             sodipodi:role="line"
+             id="tspan1-5-6"
+             style="fill:#008000;stroke:none;stroke-width:5.378"
+             x="20.207848"
+             y="166.81688">int</tspan></text>
         <text
            xml:space="preserve"
            style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#800080;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
-           x="-91.574341"
-           y="92.384163"
+           x="-66.192657"
+           y="166.44057"
            id="text1-7"><tspan
              sodipodi:role="line"
              id="tspan1-8"
              style="fill:#800080;stroke:none;stroke-width:5.378"
-             x="-91.574341"
-             y="92.384163">valor1, valor2</tspan></text>
+             x="-66.192657"
+             y="166.44057">valor1,</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#800080;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+           x="63.30209"
+           y="166.62172"
+           id="text1-7-2"><tspan
+             sodipodi:role="line"
+             id="tspan1-8-7"
+             style="fill:#800080;stroke:none;stroke-width:5.378"
+             x="63.30209"
+             y="166.62172">valor2</tspan></text>
+      </g>
+      <g
+         id="g3-7"
+         transform="translate(-3.5187387,0.13614816)">
+        <text
+           xml:space="preserve"
+           style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#008000;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+           x="-107.54492"
+           y="166.81688"
+           id="text1-53-9"><tspan
+             sodipodi:role="line"
+             id="tspan1-5-2"
+             style="fill:#008000;stroke:none;stroke-width:5.378"
+             x="-107.54492"
+             y="166.81688">int</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#008000;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+           x="20.207848"
+           y="166.81688"
+           id="text1-53-0-0"><tspan
+             sodipodi:role="line"
+             id="tspan1-5-6-2"
+             style="fill:#008000;stroke:none;stroke-width:5.378"
+             x="20.207848"
+             y="166.81688">int</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#800080;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+           x="-66.192657"
+           y="166.44057"
+           id="text1-7-3"><tspan
+             sodipodi:role="line"
+             id="tspan1-8-75"
+             style="fill:#800080;stroke:none;stroke-width:5.378"
+             x="-66.192657"
+             y="166.44057">valor1,</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#800080;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+           x="63.30209"
+           y="166.62172"
+           id="text1-7-2-9"><tspan
+             sodipodi:role="line"
+             id="tspan1-8-7-2"
+             style="fill:#800080;stroke:none;stroke-width:5.378"
+             x="63.30209"
+             y="166.62172">valor2</tspan></text>
       </g>
       <g
          id="g8"
@@ -446,82 +531,71 @@
              x="-285.58749"
              y="413.3045">}</tspan></text>
       </g>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#008080;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="142.35239"
+         y="9.9437189"
+         id="text1-54-4-9"><tspan
+           sodipodi:role="line"
+           id="tspan1-7-3-3"
+           style="fill:#008080;stroke:none;stroke-width:5.378"
+           x="142.35239"
+           y="9.9437189"><tspan
+             style="fill:#222b00"
+             id="tspan29-0">;</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#ff6600;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="-126.43745"
+         y="11.281385"
+         id="text1-5-6"><tspan
+           sodipodi:role="line"
+           id="tspan1-3-1"
+           style="fill:#ff6600;stroke:none;stroke-width:5.378"
+           x="-126.43745"
+           y="11.281385"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.5161px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600"
+             id="tspan2-8">(</tspan></tspan></text>
       <g
-         id="g9"
-         transform="translate(-10.222733)">
-        <text
-           xml:space="preserve"
-           style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#008080;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
-           x="100.90122"
-           y="7.9965816"
-           id="text1-54-4-9"><tspan
-             sodipodi:role="line"
-             id="tspan1-7-3-3"
-             style="fill:#008080;stroke:none;stroke-width:5.378"
-             x="100.90122"
-             y="7.9965816"><tspan
-               style="fill:#222b00"
-               id="tspan29-0">;</tspan></tspan></text>
+         id="g2"
+         transform="translate(0,-1.7662065)">
         <text
            xml:space="preserve"
            style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#008000;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
-           x="-220.34766"
-           y="11.597302"
+           x="-231.21442"
+           y="13.623317"
            id="text1-6"><tspan
              sodipodi:role="line"
              id="tspan1-2"
              style="fill:#008000;stroke:none;stroke-width:5.378"
-             x="-220.34766"
-             y="11.597302">void</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#ff6600;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
-           x="-102.31807"
-           y="11.119158"
-           id="text1-5-6"><tspan
-             sodipodi:role="line"
-             id="tspan1-3-1"
-             style="fill:#ff6600;stroke:none;stroke-width:5.378"
-             x="-102.31807"
-             y="11.119158"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.5161px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600"
-               id="tspan2-8">(</tspan></tspan></text>
+             x="-231.21442"
+             y="13.623317">int</tspan></text>
         <text
            xml:space="preserve"
            style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#0000ff;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
-           x="-166.56004"
-           y="9.460289"
+           x="-190.67943"
+           y="13.428156"
            id="text3-7"><tspan
              sodipodi:role="line"
              id="tspan3-92"
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.5161px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0000ff;stroke:none;stroke-width:5.378"
-             x="-166.56004"
-             y="9.460289">sumar</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#ff6600;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
-           x="86.45874"
-           y="11.119158"
-           id="text5-0"><tspan
-             sodipodi:role="line"
-             id="tspan5-2"
-             style="fill:#ff6600;stroke:none;stroke-width:5.378"
-             x="86.45874"
-             y="11.119158"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.5161px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600"
-               id="tspan4-3">)</tspan></tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#800080;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
-           x="-83.933334"
-           y="9.7530308"
-           id="text1-7-28"><tspan
-             sodipodi:role="line"
-             id="tspan1-8-97"
-             style="fill:#800080;stroke:none;stroke-width:5.378"
-             x="-83.933334"
-             y="9.7530308">valor1, valor2</tspan></text>
+             x="-190.67943"
+             y="13.428156">sumar</tspan></text>
       </g>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#ff6600;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="127.9099"
+         y="10.724364"
+         id="text5-0"><tspan
+           sodipodi:role="line"
+           id="tspan5-2"
+           style="fill:#ff6600;stroke:none;stroke-width:5.378"
+           x="127.9099"
+           y="10.724364"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.5161px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600"
+             id="tspan4-3">)</tspan></tspan></text>
     </g>
   </g>
 </svg>

@@ -42,6 +42,4 @@ int main(void){
 }
 
 ```
-![diagrama](./assets/codigo_1.png)
-
 

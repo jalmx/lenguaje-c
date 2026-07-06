@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="924.01465mm"
+   height="291.13821mm"
+   viewBox="0 0 924.01465 291.13821"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="estructura_funcion_void.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.51321034"
+     inkscape:cx="1534.4586"
+     inkscape:cy="319.55708"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g6" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect23"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect22"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect21"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect20"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect19"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect18"
+       is_visible="true"
+       lpeversion="1" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(553.92598,72.660535)">
+    <g
+       id="g6">
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#008080;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="-191.71573"
+         y="125.63515"
+         id="text1-54"><tspan
+           sodipodi:role="line"
+           id="tspan1-7"
+           style="fill:#008080;stroke:none;stroke-width:5.378"
+           x="-191.71573"
+           y="125.63515">print<tspan
+   style="fill:#ff7f2a"
+   id="tspan8">(</tspan><tspan
+   style="fill:#d4aa00"
+   id="tspan7">&quot;Hola desde la función&quot;</tspan><tspan
+   style="fill:#ff7f2a"
+   id="tspan9">)</tspan><tspan
+   style="fill:#000000"
+   id="tspan6">;</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#008000;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="-230.57039"
+         y="94.228432"
+         id="text1"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           style="fill:#008000;stroke:none;stroke-width:5.378"
+           x="-230.57039"
+           y="94.228432">void</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#ff6600;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="-86.409294"
+         y="93.75029"
+         id="text1-5"><tspan
+           sodipodi:role="line"
+           id="tspan1-3"
+           style="fill:#ff6600;stroke:none;stroke-width:5.378"
+           x="-86.409294"
+           y="93.75029"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.5161px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600"
+             id="tspan2">(</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#0000ff;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="-175.43991"
+         y="93.75029"
+         id="text3"><tspan
+           sodipodi:role="line"
+           id="tspan3"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.5161px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0000ff;stroke:none;stroke-width:5.378"
+           x="-175.43991"
+           y="93.75029">saludar</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#ff6600;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="-67.950249"
+         y="93.75029"
+         id="text5"><tspan
+           sodipodi:role="line"
+           id="tspan5"
+           style="fill:#ff6600;stroke:none;stroke-width:5.378"
+           x="-67.950249"
+           y="93.75029"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.5161px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600"
+             id="tspan4">)</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#ff00ff;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="-49.705883"
+         y="93.75029"
+         id="text5-5"><tspan
+           sodipodi:role="line"
+           id="tspan5-3"
+           style="fill:#ff00ff;stroke:none;stroke-width:5.378"
+           x="-49.705883"
+           y="93.75029">{</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#ff00ff;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="-221.32071"
+         y="158.49582"
+         id="text5-5-1"><tspan
+           sodipodi:role="line"
+           id="tspan5-3-2"
+           style="fill:#ff00ff;stroke:none;stroke-width:5.378"
+           x="-221.32071"
+           y="158.49582">}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.0132292px;fill:#008080;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="49.158173"
+         y="194.25432"
+         id="text1-54-5"><tspan
+           sodipodi:role="line"
+           id="tspan1-7-6"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008080;stroke:none;stroke-width:5.378"
+           x="49.158173"
+           y="194.25432">acciones que realiza la función</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-weight:500;font-size:19.5161px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';letter-spacing:0.0132292px;fill:#008000;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="-466.68637"
+         y="-61.667988"
+         id="text1-2"><tspan
+           sodipodi:role="line"
+           id="tspan1-9"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008000;stroke:none;stroke-width:5.378"
+           x="-466.68637"
+           y="-61.667988">el tipo de retorno de </tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008000;stroke:none;stroke-width:5.378"
+           x="-466.68637"
+           y="-38.248669"
+           id="tspan10">la función, si es void,</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008000;stroke:none;stroke-width:5.378"
+           x="-466.68637"
+           y="-14.829346"
+           id="tspan11">significa que no retorna</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008000;stroke:none;stroke-width:5.378"
+           x="-466.68637"
+           y="8.5899744"
+           id="tspan12">nada; es decir, solo hace</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008000;stroke:none;stroke-width:5.378"
+           x="-466.68637"
+           y="32.009296"
+           id="tspan13">algo y termina</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.0132292px;fill:#ff6600;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="44.333603"
+         y="-21.360516"
+         id="text1-5-1"><tspan
+           sodipodi:role="line"
+           id="tspan1-3-2"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600;stroke:none;stroke-width:5.378"
+           x="44.333603"
+           y="-21.360516">si no recibe argumentos la<tspan
+   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600"
+   id="tspan2-7" /></tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600;stroke:none;stroke-width:5.378"
+           x="44.333603"
+           y="-4.4271946"
+           id="tspan16">función, se dejan vacios los</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600;stroke:none;stroke-width:5.378"
+           x="44.333603"
+           y="12.506126"
+           id="tspan17">parentesis</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.0132292px;fill:#0000ff;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="-166.30513"
+         y="-51.172279"
+         id="text3-0"><tspan
+           sodipodi:role="line"
+           id="tspan3-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0000ff;stroke:none;stroke-width:5.378"
+           x="-166.30513"
+           y="-51.172279">nombre que describe</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0000ff;stroke:none;stroke-width:5.378"
+           x="-166.30513"
+           y="-34.23896"
+           id="tspan14">que acción realiza</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0000ff;stroke:none;stroke-width:5.378"
+           x="-166.30513"
+           y="-17.305637"
+           id="tspan15">la función</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.0132292px;fill:#ff00ff;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="133.79373"
+         y="61.826435"
+         id="text5-5-6"><tspan
+           sodipodi:role="line"
+           id="tspan5-3-26"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff00ff;stroke:none;stroke-width:5.378"
+           x="133.79373"
+           y="61.826435">llave de apertura del bloque</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff00ff;stroke:none;stroke-width:5.378"
+           x="133.79373"
+           y="78.759758"
+           id="tspan18">de la función</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;line-height:1.2;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.0132292px;fill:#ff00ff;stroke:none;stroke-width:5.378;stroke-linejoin:bevel"
+         x="-554.33521"
+         y="201.40324"
+         id="text5-5-6-0"><tspan
+           sodipodi:role="line"
+           id="tspan5-3-26-6"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff00ff;stroke:none;stroke-width:5.378"
+           x="-554.33521"
+           y="201.40324">llave de cierre del bloque</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.1111px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff00ff;stroke:none;stroke-width:5.378"
+           x="-554.33521"
+           y="218.33656"
+           id="tspan18-8">de la función</tspan></text>
+      <path
+         style="fill:none;stroke:#008000;stroke-width:2.64583;stroke-opacity:0.886275;marker-end:url(#Triangle)"
+         d="m -322.28073,33.031033 c 14.21805,10.340075 29.03717,19.85358 44.3576,28.476485 11.71336,6.592712 23.7196,12.665046 35.97143,18.193092"
+         id="path18"
+         inkscape:path-effect="#path-effect18"
+         inkscape:original-d="m -322.28073,33.031033 c 14.78587,9.127077 29.57173,18.801781 44.3576,28.476485 14.78587,9.674704 21.91573,10.708887 35.97143,18.193092"
+         sodipodi:nodetypes="csc" />
+      <path
+         style="fill:none;stroke:#0000ff;stroke-width:2.64583;stroke-opacity:1;marker-end:url(#Triangle)"
+         d="m -70.373354,-12.969443 c -18.051306,13.32631379 -33.855676,29.688481 -46.548116,48.190975 -6.21665,9.062368 -11.69121,18.633641 -16.35089,28.586562"
+         id="path19"
+         inkscape:path-effect="#path-effect19"
+         inkscape:original-d="m -70.373354,-12.969443 c -15.698575,16.0636583 -30.849546,32.127317 -46.548116,48.190975 -15.69858,16.063658 -8.50161,15.44357 -16.35089,28.586562"
+         sodipodi:nodetypes="csc" />
+      <path
+         style="fill:none;stroke:#ff6600;stroke-width:2.64583;stroke-opacity:1;marker-end:url(#Triangle)"
+         d="M 33.232637,-7.1512193 C 6.4638922,-4.0982645 -19.133783,8.3905694 -38.015161,27.609825 -48.492605,38.27476 -56.928673,50.938121 -62.734144,64.715428"
+         id="path20"
+         inkscape:path-effect="#path-effect20"
+         inkscape:original-d="M 33.232637,-7.1512193 C -0.17246335,-2.0400543 -5.1576675,23.593911 -38.015161,27.609825 -70.872627,31.62574 -44.479985,51.572436 -62.734144,64.715428"
+         sodipodi:nodetypes="csc" />
+      <path
+         style="fill:none;stroke:#ff00ff;stroke-width:2.64583;stroke-opacity:1;marker-end:url(#Triangle)"
+         d="M 126.77152,60.412267 -20.422774,81.797151"
+         id="path21"
+         inkscape:path-effect="#path-effect21"
+         inkscape:original-d="M 126.77152,60.412267 C 73.834483,68.444096 32.514292,73.765322 -20.422774,81.797151"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#008080;stroke-width:2.64583;stroke-opacity:1;marker-end:url(#Triangle)"
+         d="m 41.342063,185.2707 -3.285729,-0.54762 c -14.944512,-2.49075 -30.044825,-4.08749 -45.1950252,-4.20448 -15.1501998,-0.117 -30.6115828,0.75633 -45.1630658,-3.46227 -16.465236,-4.77342 -30.789236,-16.50802 -38.709549,-31.71191"
+         id="path22"
+         inkscape:path-effect="#path-effect22"
+         inkscape:original-d="m 41.342063,185.2707 -3.285729,-0.54762 c -1.095269,-0.18255 -60.421281,-5.11117 -90.358091,-7.66675 -29.93681,-2.55558 -23.558608,-17.65621 -38.709549,-31.71191"
+         sodipodi:nodetypes="cssc" />
+      <path
+         style="fill:none;stroke:#ff00ff;stroke-width:2.64583;stroke-opacity:1;marker-end:url(#Triangle)"
+         d="m -363.90021,184.17545 c 9.69971,-9.95389 21.03171,-18.31356 33.40511,-24.64311 28.14596,-14.39792 61.71503,-17.85569 92.20497,-9.49754"
+         id="path23"
+         inkscape:path-effect="#path-effect23"
+         inkscape:original-d="m -363.90021,184.17545 c 10.40487,-7.66675 22.45261,-16.42874 33.40511,-24.64311 10.95249,-8.21437 56.97446,-5.11654 92.20497,-9.49754"
+         sodipodi:nodetypes="csc" />
+    </g>
+  </g>
+</svg>
